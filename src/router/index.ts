@@ -9,18 +9,18 @@ const router = createRouter({
     {
       path: '/',
       name: 'main',
-      component: Main
+      component: Main,
     },
     {
       path: '/help',
       name: 'help',
-      component: Help
+      component: Help,
     },
     {
       path: '/support',
       name: 'support',
-      component: Support
-    }
+      component: Support,
+    },
   ],
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
@@ -28,12 +28,12 @@ const router = createRouter({
     } else if (to.hash) {
       return {
         el: to.hash,
-        behavior: 'smooth'
+        behavior: 'smooth',
       }
     } else {
       return { top: 0 }
     }
-  }
+  },
 })
 
 export default router

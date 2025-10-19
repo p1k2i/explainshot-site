@@ -107,7 +107,10 @@ npm run build</code></pre>
             <div class="step-number">1</div>
             <div class="step-content">
               <h3>Launch ExplainShot</h3>
-              <p>Start the application and it will run in your system tray. The icon will appear in the notification area.</p>
+              <p>
+                Start the application and it will run in your system tray. The icon will appear in
+                the notification area.
+              </p>
             </div>
           </div>
 
@@ -115,7 +118,10 @@ npm run build</code></pre>
             <div class="step-number">2</div>
             <div class="step-content">
               <h3>Take a Screenshot</h3>
-              <p>Use the hotkeys or right-click the tray icon to capture your screen. Choose from area, full screen, or window capture.</p>
+              <p>
+                Use the hotkeys or right-click the tray icon to capture your screen. Choose from
+                area, full screen, or window capture.
+              </p>
             </div>
           </div>
 
@@ -123,7 +129,10 @@ npm run build</code></pre>
             <div class="step-number">3</div>
             <div class="step-content">
               <h3>Annotate & Explain</h3>
-              <p>Use the built-in editor to add arrows, text, shapes, highlights, and explanations to your screenshot.</p>
+              <p>
+                Use the built-in editor to add arrows, text, shapes, highlights, and explanations to
+                your screenshot.
+              </p>
             </div>
           </div>
 
@@ -131,7 +140,10 @@ npm run build</code></pre>
             <div class="step-number">4</div>
             <div class="step-content">
               <h3>Save or Share</h3>
-              <p>Save to your preferred location or copy to clipboard for immediate sharing in chats, emails, or documents.</p>
+              <p>
+                Save to your preferred location or copy to clipboard for immediate sharing in chats,
+                emails, or documents.
+              </p>
             </div>
           </div>
         </div>
@@ -142,27 +154,45 @@ npm run build</code></pre>
 
         <div class="faq-item">
           <h3>How do I change the default hotkeys?</h3>
-          <p>Go to Settings → Hotkeys and click on any hotkey to customize it. Make sure your new combination doesn't conflict with other applications.</p>
+          <p>
+            Go to Settings → Hotkeys and click on any hotkey to customize it. Make sure your new
+            combination doesn't conflict with other applications.
+          </p>
         </div>
 
         <div class="faq-item">
           <h3>Can I use ExplainShot on multiple monitors?</h3>
-          <p>Yes! ExplainShot automatically detects all connected displays. When capturing, you can select which monitor to capture from.</p>
+          <p>
+            Yes! ExplainShot automatically detects all connected displays. When capturing, you can
+            select which monitor to capture from.
+          </p>
         </div>
 
         <div class="faq-item">
           <h3>What image formats are supported?</h3>
-          <p>ExplainShot supports PNG, JPEG, WebP, and BMP formats. PNG is recommended for screenshots with text and annotations.</p>
+          <p>
+            ExplainShot supports PNG, JPEG, WebP, and BMP formats. PNG is recommended for
+            screenshots with text and annotations.
+          </p>
         </div>
 
         <div class="faq-item">
           <h3>Is there a portable version available?</h3>
-          <p>Yes, the portable version doesn't require installation and stores all settings in the application folder.</p>
+          <p>
+            Yes, the portable version doesn't require installation and stores all settings in the
+            application folder.
+          </p>
         </div>
 
         <div class="faq-item">
           <h3>How do I report bugs or request features?</h3>
-          <p>Please visit our <a href="https://github.com/your-username/explain-shot/issues" target="_blank">GitHub Issues</a> page to report bugs or request new features.</p>
+          <p>
+            Please visit our
+            <a href="https://github.com/your-username/explain-shot/issues" target="_blank"
+              >GitHub Issues</a
+            >
+            page to report bugs or request new features.
+          </p>
         </div>
       </section>
 
@@ -171,22 +201,34 @@ npm run build</code></pre>
 
         <div class="trouble-item">
           <h3>Screenshots appear blurry or pixelated</h3>
-          <p>Check your display scaling settings and ensure ExplainShot is set to high DPI awareness in the compatibility settings.</p>
+          <p>
+            Check your display scaling settings and ensure ExplainShot is set to high DPI awareness
+            in the compatibility settings.
+          </p>
         </div>
 
         <div class="trouble-item">
           <h3>Hotkeys not working</h3>
-          <p>Verify that no other applications are using the same key combinations. Try running ExplainShot as administrator if the issue persists.</p>
+          <p>
+            Verify that no other applications are using the same key combinations. Try running
+            ExplainShot as administrator if the issue persists.
+          </p>
         </div>
 
         <div class="trouble-item">
           <h3>Application won't start</h3>
-          <p>Check if your antivirus is blocking the application. Add ExplainShot to your antivirus whitelist if necessary.</p>
+          <p>
+            Check if your antivirus is blocking the application. Add ExplainShot to your antivirus
+            whitelist if necessary.
+          </p>
         </div>
 
         <div class="trouble-item">
           <h3>Can't save screenshots</h3>
-          <p>Ensure you have write permissions to your chosen save directory. Try changing the default save location in settings.</p>
+          <p>
+            Ensure you have write permissions to your chosen save directory. Try changing the
+            default save location in settings.
+          </p>
         </div>
       </section>
     </div>

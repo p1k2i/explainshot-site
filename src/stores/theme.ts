@@ -48,6 +48,6 @@ export const useThemeStore = defineStore('theme', () => {
     theme,
     initTheme,
     toggleTheme,
-    applyTheme
+    applyTheme,
   }
 })

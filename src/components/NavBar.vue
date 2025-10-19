@@ -189,15 +189,15 @@ onUnmounted(() => {
   transform-origin: center;
 }
 
-.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(1) {
+.nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(1) {
   transform: rotate(45deg) translate(6px, 6px);
 }
 
-.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(2) {
+.nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(2) {
   opacity: 0;
 }
 
-.nav-toggle[aria-expanded="true"] .nav-toggle-bar:nth-child(3) {
+.nav-toggle[aria-expanded='true'] .nav-toggle-bar:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 

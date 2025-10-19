@@ -13,12 +13,22 @@
           <div class="contribute-card">
             <div class="contribute-icon">💻</div>
             <h3>Code Contributions</h3>
-            <p>Help improve ExplainShot by contributing code, fixing bugs, or adding new features.</p>
+            <p>
+              Help improve ExplainShot by contributing code, fixing bugs, or adding new features.
+            </p>
             <div class="contribute-links">
-              <a href="https://github.com/your-username/explain-shot" class="btn btn-primary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 View Repository
               </a>
-              <a href="https://github.com/your-username/explain-shot/blob/main/CONTRIBUTING.md" class="btn btn-secondary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot/blob/main/CONTRIBUTING.md"
+                class="btn btn-secondary"
+                target="_blank"
+              >
                 Contribution Guidelines
               </a>
             </div>
@@ -29,10 +39,18 @@
             <h3>Report Issues</h3>
             <p>Found a bug or have a feature request? Let us know through our issue tracker.</p>
             <div class="contribute-links">
-              <a href="https://github.com/your-username/explain-shot/issues/new?template=bug_report.md" class="btn btn-primary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot/issues/new?template=bug_report.md"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 Report Bug
               </a>
-              <a href="https://github.com/your-username/explain-shot/issues/new?template=feature_request.md" class="btn btn-secondary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot/issues/new?template=feature_request.md"
+                class="btn btn-secondary"
+                target="_blank"
+              >
                 Request Feature
               </a>
             </div>
@@ -43,12 +61,14 @@
             <h3>Documentation</h3>
             <p>Help improve our documentation, write tutorials, or translate content.</p>
             <div class="contribute-links">
-              <a href="https://github.com/your-username/explain-shot/wiki" class="btn btn-primary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot/wiki"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 Documentation
               </a>
-              <a href="mailto:help@explainshot.com" class="btn btn-secondary">
-                Contact Us
-              </a>
+              <a href="mailto:help@explainshot.com" class="btn btn-secondary"> Contact Us </a>
             </div>
           </div>
 
@@ -57,7 +77,11 @@
             <h3>Community Support</h3>
             <p>Help other users by answering questions and sharing your experiences.</p>
             <div class="contribute-links">
-              <a href="https://github.com/your-username/explain-shot/discussions" class="btn btn-primary" target="_blank">
+              <a
+                href="https://github.com/your-username/explain-shot/discussions"
+                class="btn btn-primary"
+                target="_blank"
+              >
                 Discussions
               </a>
               <a href="https://discord.gg/explainshot" class="btn btn-secondary" target="_blank">
@@ -71,8 +95,8 @@
       <section class="donate" data-aos="fade-up" data-aos-delay="400">
         <h2>💖 Support the Project</h2>
         <p class="donate-intro">
-          ExplainShot is free and open-source software. Your support helps us maintain and improve the project,
-          add new features, and keep it accessible for everyone.
+          ExplainShot is free and open-source software. Your support helps us maintain and improve
+          the project, add new features, and keep it accessible for everyone.
         </p>
 
         <div class="donation-options">
@@ -85,7 +109,11 @@
               <div class="benefit">✓ Feature requests consideration</div>
               <div class="benefit">✓ Sponsor badge</div>
             </div>
-            <a href="https://github.com/sponsors/your-username" class="btn btn-primary btn-large" target="_blank">
+            <a
+              href="https://github.com/sponsors/your-username"
+              class="btn btn-primary btn-large"
+              target="_blank"
+            >
               Become a Sponsor
             </a>
           </div>
@@ -94,7 +122,11 @@
             <div class="donation-icon">🍃</div>
             <h3>OpenCollective</h3>
             <p>Transparent funding for the ExplainShot community and ecosystem.</p>
-            <a href="https://opencollective.com/explainshot" class="btn btn-secondary" target="_blank">
+            <a
+              href="https://opencollective.com/explainshot"
+              class="btn btn-secondary"
+              target="_blank"
+            >
               Support on OpenCollective
             </a>
           </div>
@@ -111,7 +143,9 @@
 
         <div class="sponsors-section">
           <h3>🙏 Current Sponsors</h3>
-          <p class="sponsors-note">Thank you to all our amazing sponsors who make this project possible!</p>
+          <p class="sponsors-note">
+            Thank you to all our amazing sponsors who make this project possible!
+          </p>
           <div class="sponsors-grid">
             <!-- Sponsor logos/names would be dynamically loaded here -->
             <div class="sponsor-placeholder">
@@ -159,39 +193,59 @@
         <div class="guidelines-content">
           <div class="guideline-item">
             <h3>🤗 Be Respectful</h3>
-            <p>Treat all community members with respect and kindness. We welcome contributors from all backgrounds and experience levels.</p>
+            <p>
+              Treat all community members with respect and kindness. We welcome contributors from
+              all backgrounds and experience levels.
+            </p>
           </div>
 
           <div class="guideline-item">
             <h3>🔍 Search First</h3>
-            <p>Before posting a question or issue, please search existing discussions and documentation to avoid duplicates.</p>
+            <p>
+              Before posting a question or issue, please search existing discussions and
+              documentation to avoid duplicates.
+            </p>
           </div>
 
           <div class="guideline-item">
             <h3>📝 Provide Details</h3>
-            <p>When reporting bugs or asking for help, include relevant details like your operating system, version, and steps to reproduce.</p>
+            <p>
+              When reporting bugs or asking for help, include relevant details like your operating
+              system, version, and steps to reproduce.
+            </p>
           </div>
 
           <div class="guideline-item">
             <h3>🎯 Stay On Topic</h3>
-            <p>Keep discussions relevant to ExplainShot. Off-topic conversations should be moved to appropriate channels.</p>
+            <p>
+              Keep discussions relevant to ExplainShot. Off-topic conversations should be moved to
+              appropriate channels.
+            </p>
           </div>
 
           <div class="guideline-item">
             <h3>💡 Be Constructive</h3>
-            <p>When providing feedback or criticism, focus on being constructive and helpful rather than just pointing out problems.</p>
+            <p>
+              When providing feedback or criticism, focus on being constructive and helpful rather
+              than just pointing out problems.
+            </p>
           </div>
 
           <div class="guideline-item">
             <h3>🚫 No Spam</h3>
-            <p>Avoid posting repetitive content, self-promotion without context, or unrelated commercial messages.</p>
+            <p>
+              Avoid posting repetitive content, self-promotion without context, or unrelated
+              commercial messages.
+            </p>
           </div>
         </div>
       </section>
 
       <section class="roadmap" data-aos="fade-up" data-aos-delay="1000">
         <h2>🗺️ Project Roadmap</h2>
-        <p class="roadmap-intro">Here's what we're working on and planning for the future of ExplainShot:</p>
+        <p class="roadmap-intro">
+          Here's what we're working on and planning for the future of ExplainShot:
+        </p>
 
         <div class="roadmap-timeline">
           <div class="roadmap-item completed">
@@ -292,7 +346,9 @@ section h2 {
   border-radius: 12px;
   border: 1px solid var(--color-border);
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .contribute-card:hover {
@@ -347,12 +403,18 @@ section h2 {
   border-radius: 12px;
   border: 1px solid var(--color-border);
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .donation-card.featured {
   border-color: var(--color-primary);
-  background: linear-gradient(135deg, var(--color-background-soft), var(--color-primary-light, rgba(59, 130, 246, 0.1)));
+  background: linear-gradient(
+    135deg,
+    var(--color-background-soft),
+    var(--color-primary-light, rgba(59, 130, 246, 0.1))
+  );
 }
 
 .donation-card:hover {
@@ -432,7 +494,9 @@ section h2 {
   border-radius: 12px;
   border: 1px solid var(--color-border);
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .contact-card:hover {

@@ -8,7 +8,11 @@
         </p>
         <div class="hero-buttons">
           <a href="#features" class="btn btn-primary">Learn More</a>
-          <a href="https://github.com/your-username/explain-shot" class="btn btn-secondary" target="_blank">
+          <a
+            href="https://github.com/your-username/explain-shot"
+            class="btn btn-secondary"
+            target="_blank"
+          >
             View on GitHub
           </a>
         </div>
@@ -27,12 +31,16 @@
           <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
             <div class="feature-icon">✏️</div>
             <h3>Rich Annotations</h3>
-            <p>Add arrows, text, shapes, and highlights with professional-grade annotation tools.</p>
+            <p>
+              Add arrows, text, shapes, and highlights with professional-grade annotation tools.
+            </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
             <div class="feature-icon">⚡</div>
             <h3>Lightning Fast</h3>
-            <p>Built with performance in mind using modern MVC architecture and event-driven design.</p>
+            <p>
+              Built with performance in mind using modern MVC architecture and event-driven design.
+            </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
             <div class="feature-icon">🎨</div>
@@ -58,9 +66,9 @@
       <div class="container">
         <h2>Modern Architecture</h2>
         <p class="architecture-description">
-          ExplainShot is built with a clean MVC (Model-View-Controller) pattern and event-driven architecture,
-          ensuring maintainable code and excellent performance. The modular design allows for easy extensibility
-          and customization.
+          ExplainShot is built with a clean MVC (Model-View-Controller) pattern and event-driven
+          architecture, ensuring maintainable code and excellent performance. The modular design
+          allows for easy extensibility and customization.
         </p>
         <div class="architecture-features">
           <div class="arch-item">📦 Modular Design</div>
@@ -75,10 +83,18 @@
       <div class="container">
         <h2>Get Started</h2>
         <div class="download-buttons">
-          <a href="https://github.com/your-username/explain-shot/releases" class="btn btn-primary btn-large" target="_blank">
+          <a
+            href="https://github.com/your-username/explain-shot/releases"
+            class="btn btn-primary btn-large"
+            target="_blank"
+          >
             Download Latest Release
           </a>
-          <a href="https://github.com/your-username/explain-shot" class="btn btn-secondary btn-large" target="_blank">
+          <a
+            href="https://github.com/your-username/explain-shot"
+            class="btn btn-secondary btn-large"
+            target="_blank"
+          >
             View Repository
           </a>
         </div>
@@ -110,7 +126,11 @@ onMounted(() => {
 .hero {
   padding: 6rem 0 4rem;
   text-align: center;
-  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-soft) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-background) 0%,
+    var(--color-background-soft) 100%
+  );
 }
 
 .hero-title {
@@ -163,7 +183,9 @@ onMounted(() => {
   border-radius: 12px;
   text-align: center;
   border: 1px solid var(--color-border);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .feature-card:hover {
