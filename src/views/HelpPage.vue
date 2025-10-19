@@ -77,23 +77,15 @@ npm run build</code></pre>
         </div>
 
         <div class="config-section">
-          <h3>Hotkeys</h3>
+            <h3>Customizable Hotkeys</h3>
           <div class="hotkey-grid">
             <div class="hotkey-item">
               <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
               <span>Capture selected area</span>
             </div>
             <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F</kbd>
-              <span>Capture full screen</span>
-            </div>
-            <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>W</kbd>
-              <span>Capture active window</span>
-            </div>
-            <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>
-              <span>Open annotation editor</span>
+              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
+              <span>Open overlay</span>
             </div>
           </div>
         </div>
