@@ -135,9 +135,9 @@
             <div class="donation-icon">💳</div>
             <h3>PayPal</h3>
             <p>Quick one-time donations via PayPal for immediate support.</p>
-            <a href="https://paypal.me/explainshot" class="btn btn-secondary" target="_blank">
-              Donate via PayPal
-            </a>
+            <div id="donate-button-container">
+              <div id="donate-button"></div>
+            </div>
           </div>
         </div>
 
@@ -284,7 +284,32 @@
 </template>
 
 <script setup lang="ts">
-// Support page logic can be added here if needed
+import { onMounted } from 'vue';
+
+declare global {
+  interface Window {
+    PayPal: unknown;
+  }
+}
+
+onMounted(() => {
+  const script = document.createElement('script');
+  script.src = 'https://www.paypalobjects.com/donate/sdk/donate-sdk.js';
+  script.charset = 'UTF-8';
+  document.head.appendChild(script);
+  script.onload = () => {
+    // @ts-expect-error PayPal SDK is not typed
+    window.PayPal.Donation.Button({
+      env: 'production',
+      hosted_button_id: '2Q8E2KWLMWTGQ',
+      image: {
+        src: 'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+        alt: 'Donate with PayPal button',
+        title: 'PayPal - The safer, easier way to pay online!',
+      }
+    }).render('#donate-button');
+  };
+});
 </script>
 
 <style scoped>
