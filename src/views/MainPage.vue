@@ -30,20 +30,13 @@
           <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
             <div class="feature-icon">📸</div>
             <h3>Smart Screenshots</h3>
-            <p>Capture screenshots with intelligent region detection and automatic optimization.</p>
+            <p>Capture screenshots with intelligent region selection and configured presets.</p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="feature-icon">✏️</div>
-            <h3>Rich Annotations</h3>
+            <div class="feature-icon">🖼️</div>
+            <h3>Overlay and Gallery</h3>
             <p>
-              Add arrows, text, shapes, and highlights with professional-grade annotation tools.
-            </p>
-          </div>
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
-            <div class="feature-icon">⚡</div>
-            <h3>Lightning Fast</h3>
-            <p>
-              Built with performance in mind using modern MVC architecture and event-driven design.
+              Use overlays for quick access and chat about your screenshots in the built-in gallery.
             </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
