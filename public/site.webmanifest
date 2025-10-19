@@ -2,7 +2,7 @@
   "name": "ExplainShot",
   "short_name": "ExplainShot",
   "description": "Advanced Screenshot Annotation Tool",
-  "start_url": "/",
+  "start_url": "/explainshot-site/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
