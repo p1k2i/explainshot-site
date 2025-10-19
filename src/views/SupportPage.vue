@@ -110,7 +110,7 @@
               <div class="benefit">✓ Sponsor badge</div>
             </div>
             <a
-              href="https://github.com/sponsors/your-username"
+              href="https://github.com/sponsors/p1k2i"
               class="btn btn-primary btn-large"
               target="_blank"
             >
