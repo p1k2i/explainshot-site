@@ -18,14 +18,14 @@
             </p>
             <div class="contribute-links">
               <a
-                href="https://github.com/your-username/explain-shot"
+                href="https://github.com/p1k2i/explain-shot"
                 class="btn btn-primary"
                 target="_blank"
               >
                 View Repository
               </a>
               <a
-                href="https://github.com/your-username/explain-shot/blob/main/CONTRIBUTING.md"
+                href="https://github.com/p1k2i/explain-shot/blob/main/CONTRIBUTING.md"
                 class="btn btn-secondary"
                 target="_blank"
               >
@@ -40,14 +40,14 @@
             <p>Found a bug or have a feature request? Let us know through our issue tracker.</p>
             <div class="contribute-links">
               <a
-                href="https://github.com/your-username/explain-shot/issues/new?template=bug_report.md"
+                href="https://github.com/p1k2i/explain-shot/issues/new?template=bug_report.md"
                 class="btn btn-primary"
                 target="_blank"
               >
                 Report Bug
               </a>
               <a
-                href="https://github.com/your-username/explain-shot/issues/new?template=feature_request.md"
+                href="https://github.com/p1k2i/explain-shot/issues/new?template=feature_request.md"
                 class="btn btn-secondary"
                 target="_blank"
               >
@@ -62,7 +62,7 @@
             <p>Help improve our documentation, write tutorials, or translate content.</p>
             <div class="contribute-links">
               <a
-                href="https://github.com/your-username/explain-shot/wiki"
+                href="https://github.com/p1k2i/explain-shot/wiki"
                 class="btn btn-primary"
                 target="_blank"
               >
@@ -78,7 +78,7 @@
             <p>Help other users by answering questions and sharing your experiences.</p>
             <div class="contribute-links">
               <a
-                href="https://github.com/your-username/explain-shot/discussions"
+                href="https://github.com/p1k2i/explain-shot/discussions"
                 class="btn btn-primary"
                 target="_blank"
               >

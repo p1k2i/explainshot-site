@@ -37,7 +37,7 @@
           <h3>Development Setup</h3>
           <div class="code-block">
             <pre><code># Clone the repository
-git clone https://github.com/your-username/explain-shot.git
+git clone https://github.com/p1k2i/explain-shot.git
 cd explain-shot
 
 # Install dependencies
@@ -188,7 +188,7 @@ npm run build</code></pre>
           <h3>How do I report bugs or request features?</h3>
           <p>
             Please visit our
-            <a href="https://github.com/your-username/explain-shot/issues" target="_blank"
+            <a href="https://github.com/p1k2i/explain-shot/issues" target="_blank"
               >GitHub Issues</a
             >
             page to report bugs or request new features.

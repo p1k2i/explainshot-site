@@ -9,7 +9,7 @@
         <div class="hero-buttons">
           <a href="#features" class="btn btn-primary">Learn More</a>
           <a
-            href="https://github.com/your-username/explain-shot"
+            href="https://github.com/p1k2i/explain-shot"
             class="btn btn-secondary"
             target="_blank"
           >
@@ -84,14 +84,14 @@
         <h2>Get Started</h2>
         <div class="download-buttons">
           <a
-            href="https://github.com/your-username/explain-shot/releases"
+            href="https://github.com/p1k2i/explain-shot/releases"
             class="btn btn-primary btn-large"
             target="_blank"
           >
             Download Latest Release
           </a>
           <a
-            href="https://github.com/your-username/explain-shot"
+            href="https://github.com/p1k2i/explain-shot"
             class="btn btn-secondary btn-large"
             target="_blank"
           >
