@@ -272,7 +272,7 @@
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
               <h3>v2.0 - Cloud Integration</h3>
-              <p>Seamless ExplainShot cloud services for easier usage, instant sharing, and real-time collaborative annotations.</p>
+                <p>Simplifying the setup process for new users with built-in services, instant sharing and storage.</p>
               <span class="roadmap-status">📅 Planned</span>
             </div>
           </div>
