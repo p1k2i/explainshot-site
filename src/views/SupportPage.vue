@@ -252,7 +252,7 @@
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
               <h3>v0.1.0 - Minimal Features</h3>
-              <p>Basic screenshot capture, settings and integration with Ollama.</p>
+              <p>Basic screenshot capture, settings and built-in gallery with Ollama integration.</p>
               <span class="roadmap-status">✅ Completed</span>
             </div>
           </div>
