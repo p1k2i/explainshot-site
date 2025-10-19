@@ -9,10 +9,10 @@
       <section class="download-hero" data-aos="fade-up" data-aos-delay="200">
         <div class="current-version">
           <div class="version-badge">
-            <span class="version-label">Pre-release</span>
+            <span class="version-label">Latest Release</span>
             <span class="version-number">v0.1.0</span>
           </div>
-          <p class="version-date">October 19, 2025</p>
+          <p class="version-date">Released on October 19, 2025</p>
         </div>
       </section>
 
@@ -30,7 +30,7 @@
                 Download Installer
                 <small>(.exe - ? MB)</small>
               </button>
-              <a href="#" class="btn btn-secondary" @click="trackDownload('windows-portable')">
+              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.1.0/ExplainShot-v0.1.0.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
                 <span class="download-icon">📦</span>
                 Portable Version
                 <small>(.zip - 52.3 MB)</small>
@@ -316,8 +316,6 @@ const platforms = [
 const trackDownload = (platform: string) => {
   // Analytics tracking for downloads
   console.log(`Download tracked: ${platform}`)
-  // In a real app, you'd implement actual download tracking here
-  alert(`Download starting for ${platform}. This is a demo - no actual file will be downloaded.`)
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
