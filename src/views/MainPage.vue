@@ -8,7 +8,7 @@
         </p>
         <div class="hero-buttons">
           <RouterLink to="/download" class="btn btn-primary">
-            <span class="download-icon">⬇️</span>
+            <i class="fas fa-download"></i>
             Download Now
           </RouterLink>
           <a href="#features" class="btn btn-secondary">Learn More</a>
@@ -28,19 +28,19 @@
         <h2>Key Features</h2>
         <div class="features-grid">
           <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
-            <div class="feature-icon">📸</div>
+            <div class="feature-icon"><i class="fas fa-camera"></i></div>
             <h3>Smart Screenshots</h3>
             <p>Capture screenshots with intelligent region selection and configured presets.</p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="feature-icon">🖼️</div>
+            <div class="feature-icon"><i class="fas fa-image"></i></div>
             <h3>Overlay and Gallery</h3>
             <p>
               Use overlays for quick access and chat about your screenshots in the built-in gallery.
             </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
-            <div class="feature-icon">🎨</div>
+            <div class="feature-icon"><i class="fas fa-palette"></i></div>
             <h3>Customizable</h3>
             <p>Extensive theming options and configurable hotkeys to match your workflow.</p>
           </div>
@@ -68,10 +68,10 @@
           allows for easy extensibility and customization.
         </p>
         <div class="architecture-features">
-          <div class="arch-item">📦 Modular Design</div>
-          <div class="arch-item">🔄 Event-Driven</div>
-          <div class="arch-item">🏗️ MVC Pattern</div>
-          <div class="arch-item">🔧 Extensible</div>
+          <div class="arch-item"><i class="fas fa-cube"></i> Modular Design</div>
+          <div class="arch-item"><i class="fas fa-code-branch"></i> Event-Driven</div>
+          <div class="arch-item"><i class="fas fa-sitemap"></i> MVC Pattern</div>
+          <div class="arch-item"><i class="fas fa-wrench"></i> Extensible</div>
         </div>
       </div>
     </section>
@@ -194,6 +194,7 @@ onMounted(() => {
 .feature-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .feature-card h3 {
@@ -274,6 +275,14 @@ onMounted(() => {
   border-radius: 25px;
   font-weight: 500;
   color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.arch-item i {
+  font-size: 1.2rem;
+  color: var(--color-primary);
 }
 
 /* Download Section */
@@ -349,6 +358,8 @@ onMounted(() => {
 
 .download-icon {
   margin-right: 0.5rem;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* Responsive */

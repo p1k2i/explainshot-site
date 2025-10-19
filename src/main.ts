@@ -7,6 +7,9 @@ import router from './router'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+// FontAwesome imports
+import '@fortawesome/fontawesome-free/css/all.css'
+
 // Global styles
 import './assets/styles.css'
 

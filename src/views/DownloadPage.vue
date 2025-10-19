@@ -17,21 +17,21 @@
       </section>
 
       <section class="download-options" data-aos="fade-up" data-aos-delay="400">
-        <h2>🖥️ Download for Your Platform</h2>
+        <h2><i class="fas fa-computer"></i> Download for Your Platform</h2>
 
         <div class="platforms-grid">
           <div class="platform-card">
-            <div class="platform-icon">🪟</div>
+            <div class="platform-icon"><i class="fab fa-windows"></i></div>
             <h3>Windows</h3>
             <p class="platform-info">Windows 10/11 (64-bit)</p>
             <div class="download-buttons">
               <button class="btn btn-primary" disabled @click="trackDownload('windows-installer')">
-                <span class="download-icon">⬇️</span>
+                <i class="fas fa-download"></i>
                 Download Installer
                 <small>(.exe - ? MB)</small>
               </button>
               <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.1.0/ExplainShot-v0.1.0.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
-                <span class="download-icon">📦</span>
+                <i class="fas fa-box"></i>
                 Portable Version
                 <small>(.zip - 52.3 MB)</small>
               </a>
@@ -39,17 +39,17 @@
           </div>
 
           <div class="platform-card">
-            <div class="platform-icon">🍎</div>
+            <div class="platform-icon"><i class="fab fa-apple"></i></div>
             <h3>macOS</h3>
             <p class="platform-info">macOS 11.0+ (Universal Binary)</p>
             <div class="download-buttons">
               <button class="btn btn-primary" disabled @click="trackDownload('macos-dmg')">
-                <span class="download-icon">⬇️</span>
+                <i class="fas fa-download"></i>
                 Download DMG
                 <small>(.dmg - ? MB)</small>
               </button>
               <button class="btn btn-secondary" disabled @click="trackDownload('macos-zip')">
-                <span class="download-icon">📦</span>
+                <i class="fas fa-box"></i>
                 ZIP Archive
                 <small>(.zip - ? MB)</small>
               </button>
@@ -57,17 +57,17 @@
           </div>
 
           <div class="platform-card">
-            <div class="platform-icon">🐧</div>
+            <div class="platform-icon"><i class="fab fa-linux"></i></div>
             <h3>Linux</h3>
             <p class="platform-info">Ubuntu 20.04+ / Debian 11+ / Fedora 35+</p>
             <div class="download-buttons">
               <button class="btn btn-primary" disabled @click="trackDownload('linux-appimage')">
-                <span class="download-icon">⬇️</span>
+                <i class="fas fa-download"></i>
                 Download AppImage
                 <small>(.AppImage - ? MB)</small>
               </button>
               <button class="btn btn-secondary" disabled @click="trackDownload('linux-deb')">
-                <span class="download-icon">📦</span>
+                <i class="fas fa-box"></i>
                 DEB Package
                 <small>(.deb - ? MB)</small>
               </button>
@@ -77,11 +77,11 @@
       </section>
 
       <section class="alternative-downloads" data-aos="fade-up" data-aos-delay="600">
-        <h2>📥 Alternative Downloads</h2>
+        <h2><i class="fas fa-arrow-down"></i> Alternative Downloads</h2>
 
         <div class="alt-downloads-grid">
           <div class="alt-download-card">
-            <div class="alt-icon">🐙</div>
+            <div class="alt-icon"><i class="fab fa-github"></i></div>
             <h3>GitHub Releases</h3>
             <p>Access all versions, pre-releases, and source code directly from GitHub.</p>
             <a
@@ -129,11 +129,11 @@
       </section>
 
       <section class="system-requirements" data-aos="fade-up" data-aos-delay="800">
-        <h2>⚙️ System Requirements</h2>
+        <h2><i class="fas fa-cog"></i> System Requirements</h2>
 
         <div class="requirements-grid">
           <div class="requirement-card">
-            <h3>🪟 Windows</h3>
+            <h3><i class="fab fa-windows"></i> Windows</h3>
             <ul>
               <li>Windows 10 version 1903 or later (64-bit)</li>
               <li>4 GB RAM minimum, 8 GB recommended</li>
@@ -143,7 +143,7 @@
           </div>
 
           <div class="requirement-card">
-            <h3>🍎 macOS</h3>
+            <h3><i class="fab fa-apple"></i> macOS</h3>
             <ul>
               <li>macOS 11.0 (Big Sur) or later</li>
               <li>4 GB RAM minimum, 8 GB recommended</li>
@@ -153,7 +153,7 @@
           </div>
 
           <div class="requirement-card">
-            <h3>🐧 Linux</h3>
+            <h3><i class="fab fa-linux"></i> Linux</h3>
             <ul>
               <li>Ubuntu 20.04+ / Debian 11+ / Fedora 35+</li>
               <li>4 GB RAM minimum, 8 GB recommended</li>
@@ -165,7 +165,7 @@
       </section>
 
       <section class="installation-guide" data-aos="fade-up" data-aos-delay="1000">
-        <h2>🛠️ Installation Guide</h2>
+        <h2><i class="fas fa-tools"></i> Installation Guide</h2>
 
         <div class="guide-tabs">
           <button
@@ -190,7 +190,7 @@
               <li>Configure your preferences in the Settings menu</li>
             </ol>
             <div class="tip">
-              <strong>💡 Tip:</strong> Use the portable version if you don't have admin rights or want to run from a USB drive.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> Use the portable version if you don't have admin rights or want to run from a USB drive.
             </div>
           </div>
 
@@ -204,7 +204,7 @@
               <li>ExplainShot will launch and be available in your Applications</li>
             </ol>
             <div class="tip">
-              <strong>💡 Tip:</strong> You might need to go to System Preferences > Security & Privacy to allow ExplainShot to run.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> You might need to go to System Preferences > Security & Privacy to allow ExplainShot to run.
             </div>
           </div>
 
@@ -217,14 +217,14 @@
               <li>Optionally, integrate it with your desktop environment</li>
             </ol>
             <div class="tip">
-              <strong>💡 Tip:</strong> For DEB/RPM packages, use your package manager to install and get automatic integration.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> For DEB/RPM packages, use your package manager to install and get automatic integration.
             </div>
           </div>
         </div>
       </section>
 
       <section class="release-notes" data-aos="fade-up" data-aos-delay="1200">
-        <h2>📝 What's New</h2>
+        <h2><i class="fas fa-file-lines"></i> What's New</h2>
 
         <div class="changelog">
           <div class="changelog-section">
@@ -247,25 +247,25 @@
       </section>
 
       <section class="support-section" data-aos="fade-up" data-aos-delay="1400">
-        <h2>🤝 Need Help?</h2>
+        <h2><i class="fas fa-handshake"></i> Need Help?</h2>
 
         <div class="support-grid">
           <div class="support-card">
-            <div class="support-icon">📚</div>
+            <div class="support-icon"><i class="fas fa-book"></i></div>
             <h3>Documentation</h3>
             <p>Comprehensive guides and tutorials to get you started.</p>
             <RouterLink to="/help" class="btn btn-secondary">View Help</RouterLink>
           </div>
 
           <div class="support-card">
-            <div class="support-icon">💬</div>
+            <div class="support-icon"><i class="fas fa-comments"></i></div>
             <h3>Community Support</h3>
             <p>Join our community for discussions and peer support.</p>
             <RouterLink to="/support" class="btn btn-secondary">Get Support</RouterLink>
           </div>
 
           <div class="support-card">
-            <div class="support-icon">🐛</div>
+            <div class="support-icon"><i class="fas fa-bug"></i></div>
             <h3>Report Issues</h3>
             <p>Found a bug? Let us know through our issue tracker.</p>
             <a
@@ -413,6 +413,7 @@ section h2 {
 .platform-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .platform-card h3 {
@@ -448,6 +449,9 @@ section h2 {
 
 .download-icon {
   font-size: 1.125rem;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
 }
 
 /* Alternative Downloads */
@@ -474,6 +478,7 @@ section h2 {
 .alt-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .alt-download-card h3 {
@@ -538,6 +543,14 @@ section h2 {
   color: var(--color-heading);
   margin-bottom: 1rem;
   font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.requirement-card h3 i {
+  color: var(--color-primary);
+  font-size: 1.5rem;
 }
 
 .requirement-card ul {
@@ -626,6 +639,11 @@ section h2 {
   color: var(--color-text);
 }
 
+.tip i {
+  margin-right: 0.5rem;
+  color: var(--color-primary);
+}
+
 /* Release Notes */
 .changelog {
   display: grid;
@@ -687,6 +705,7 @@ section h2 {
 .support-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .support-card h3 {

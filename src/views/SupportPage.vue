@@ -7,11 +7,11 @@
       </header>
 
       <section class="contribute" data-aos="fade-up" data-aos-delay="200">
-        <h2>🤝 How to Contribute</h2>
+        <h2><i class="fas fa-handshake"></i> How to Contribute</h2>
 
         <div class="contribute-grid">
           <div class="contribute-card">
-            <div class="contribute-icon">💻</div>
+            <div class="contribute-icon"><i class="fas fa-code"></i></div>
             <h3>Code Contributions</h3>
             <p>
               Help improve ExplainShot by contributing code, fixing bugs, or adding new features.
@@ -35,7 +35,7 @@
           </div>
 
           <div class="contribute-card">
-            <div class="contribute-icon">🐛</div>
+            <div class="contribute-icon"><i class="fas fa-bug"></i></div>
             <h3>Report Issues</h3>
             <p>Found a bug or have a feature request? Let us know through our issue tracker.</p>
             <div class="contribute-links">
@@ -57,7 +57,7 @@
           </div>
 
           <div class="contribute-card">
-            <div class="contribute-icon">📚</div>
+            <div class="contribute-icon"><i class="fas fa-book"></i></div>
             <h3>Documentation</h3>
             <p>Help improve our documentation, write tutorials, or translate content.</p>
             <div class="contribute-links">
@@ -73,7 +73,7 @@
           </div>
 
           <div class="contribute-card">
-            <div class="contribute-icon">💬</div>
+            <div class="contribute-icon"><i class="fas fa-comments"></i></div>
             <h3>Community Support</h3>
             <p>Help other users by answering questions and sharing your experiences.</p>
             <div class="contribute-links">
@@ -93,7 +93,7 @@
       </section>
 
       <section class="donate" data-aos="fade-up" data-aos-delay="400">
-        <h2>💖 Support the Project</h2>
+        <h2><i class="fas fa-heart"></i> Support the Project</h2>
         <p class="donate-intro">
           ExplainShot is free and open-source software. Your support helps us maintain and improve
           the project, add new features, and keep it accessible for everyone.
@@ -101,13 +101,13 @@
 
         <div class="donation-options">
           <div class="donation-card featured">
-            <div class="donation-icon">🌟</div>
+            <div class="donation-icon"><i class="fas fa-star"></i></div>
             <h3>GitHub Sponsors</h3>
             <p>Support ongoing development with monthly or one-time contributions on GitHub.</p>
             <div class="donation-benefits">
-              <div class="benefit">✓ Priority support</div>
-              <div class="benefit">✓ Feature requests consideration</div>
-              <div class="benefit">✓ Sponsor badge</div>
+              <div class="benefit"><i class="fas fa-check"></i> Priority support</div>
+              <div class="benefit"><i class="fas fa-check"></i> Feature requests consideration</div>
+              <div class="benefit"><i class="fas fa-check"></i> Sponsor badge</div>
             </div>
             <a
               href="https://github.com/sponsors/p1k2i"
@@ -119,7 +119,7 @@
           </div>
 
           <div class="donation-card">
-            <div class="donation-icon">🍃</div>
+            <div class="donation-icon"><i class="fas fa-leaf"></i></div>
             <h3>OpenCollective</h3>
             <p>Transparent funding for the ExplainShot community and ecosystem.</p>
             <a
@@ -132,7 +132,7 @@
           </div>
 
           <div class="donation-card">
-            <div class="donation-icon">💳</div>
+            <div class="donation-icon"><i class="fas fa-credit-card"></i></div>
             <h3>PayPal</h3>
             <p>Quick one-time donations via PayPal for immediate support.</p>
             <div id="donate-button-container">
@@ -142,7 +142,7 @@
         </div>
 
         <div class="sponsors-section">
-          <h3>🙏 Current Sponsors</h3>
+          <h3><i class="fas fa-hand-holding-heart"></i> Current Sponsors</h3>
           <p class="sponsors-note">
             Thank you to all our amazing sponsors who make this project possible!
           </p>
@@ -157,18 +157,18 @@
       </section>
 
       <section class="contact" data-aos="fade-up" data-aos-delay="600">
-        <h2>📧 Get in Touch</h2>
+        <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
 
         <div class="contact-grid">
           <div class="contact-card">
-            <div class="contact-icon">📧</div>
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
             <h3>Email</h3>
             <p>General inquiries, support questions, or partnership opportunities.</p>
             <a href="mailto:p1k2i.dev@gmail.com" class="contact-link">p1k2i.dev@gmail.com</a>
           </div>
 
           <div class="contact-card">
-            <div class="contact-icon">💼</div>
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
             <h3>LinkedIn</h3>
             <p>Connect with the project maintainer for professional networking.</p>
             <a href="https://linkedin.com/in/p1k2i" class="contact-link" target="_blank">
@@ -177,7 +177,7 @@
           </div>
 
           <div class="contact-card">
-            <div class="contact-icon">🐙</div>
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
             <h3>GitHub</h3>
             <p>Technical discussions, bug reports, and open-source collaboration.</p>
             <a href="https://github.com/p1k2i" class="contact-link" target="_blank">
@@ -188,11 +188,11 @@
       </section>
 
       <section class="community-guidelines" data-aos="fade-up" data-aos-delay="800">
-        <h2>📋 Community Guidelines</h2>
+        <h2><i class="fas fa-list"></i> Community Guidelines</h2>
 
         <div class="guidelines-content">
           <div class="guideline-item">
-            <h3>🤗 Be Respectful</h3>
+            <h3><i class="fas fa-handshake"></i> Be Respectful</h3>
             <p>
               Treat all community members with respect and kindness. We welcome contributors from
               all backgrounds and experience levels.
@@ -200,7 +200,7 @@
           </div>
 
           <div class="guideline-item">
-            <h3>🔍 Search First</h3>
+            <h3><i class="fas fa-magnifying-glass"></i> Search First</h3>
             <p>
               Before posting a question or issue, please search existing discussions and
               documentation to avoid duplicates.
@@ -208,7 +208,7 @@
           </div>
 
           <div class="guideline-item">
-            <h3>📝 Provide Details</h3>
+            <h3><i class="fas fa-file-lines"></i> Provide Details</h3>
             <p>
               When reporting bugs or asking for help, include relevant details like your operating
               system, version, and steps to reproduce.
@@ -216,7 +216,7 @@
           </div>
 
           <div class="guideline-item">
-            <h3>🎯 Stay On Topic</h3>
+            <h3><i class="fas fa-bullseye"></i> Stay On Topic</h3>
             <p>
               Keep discussions relevant to ExplainShot. Off-topic conversations should be moved to
               appropriate channels.
@@ -224,7 +224,7 @@
           </div>
 
           <div class="guideline-item">
-            <h3>💡 Be Constructive</h3>
+            <h3><i class="fas fa-lightbulb"></i> Be Constructive</h3>
             <p>
               When providing feedback or criticism, focus on being constructive and helpful rather
               than just pointing out problems.
@@ -232,7 +232,7 @@
           </div>
 
           <div class="guideline-item">
-            <h3>🚫 No Spam</h3>
+            <h3><i class="fas fa-ban"></i> No Spam</h3>
             <p>
               Avoid posting repetitive content, self-promotion without context, or unrelated
               commercial messages.
@@ -242,7 +242,7 @@
       </section>
 
       <section class="roadmap" data-aos="fade-up" data-aos-delay="1000">
-        <h2>🗺️ Project Roadmap</h2>
+        <h2><i class="fas fa-map"></i> Project Roadmap</h2>
         <p class="roadmap-intro">
           Here's what we're working on and planning for the future of ExplainShot:
         </p>
@@ -253,7 +253,7 @@
             <div class="roadmap-content">
               <h3>v0.1.0 - Minimal Features</h3>
               <p>Basic screenshot capture, settings and built-in gallery with Ollama integration.</p>
-              <span class="roadmap-status">✅ Completed</span>
+              <span class="roadmap-status"><i class="fas fa-check-circle"></i> Completed</span>
             </div>
           </div>
 
@@ -264,7 +264,7 @@
               <p>
                 Seamless integration with leading cloud LLMs, customizable presets for rapid region capture, and improved UI/UX for a refined user experience.
               </p>
-              <span class="roadmap-status">🚧 In Progress</span>
+              <span class="roadmap-status"><i class="fas fa-circle-notch"></i> In Progress</span>
             </div>
           </div>
 
@@ -273,7 +273,7 @@
             <div class="roadmap-content">
               <h3>v2.0 - Cloud Integration</h3>
                 <p>Simplifying the setup process for new users with built-in services, instant sharing and storage.</p>
-              <span class="roadmap-status">📅 Planned</span>
+              <span class="roadmap-status"><i class="fas fa-calendar-days"></i> Planned</span>
             </div>
           </div>
 
@@ -378,6 +378,7 @@ section h2 {
 .contribute-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .contribute-card h3 {
@@ -444,6 +445,7 @@ section h2 {
 .donation-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .donation-card h3 {
@@ -466,6 +468,13 @@ section h2 {
   color: var(--color-primary);
   font-size: 0.875rem;
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.benefit i {
+  color: var(--color-success, #10b981);
 }
 
 .sponsors-section {
@@ -479,6 +488,14 @@ section h2 {
 .sponsors-section h3 {
   color: var(--color-heading);
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sponsors-section h3 i {
+  font-size: 1.5rem;
+  color: var(--color-primary);
 }
 
 .sponsors-note {
@@ -526,6 +543,7 @@ section h2 {
 .contact-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: var(--color-primary);
 }
 
 .contact-card h3 {
@@ -569,6 +587,14 @@ section h2 {
   color: var(--color-heading);
   margin-bottom: 0.75rem;
   font-size: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.guideline-item h3 i {
+  color: var(--color-primary);
+  font-size: 1.25rem;
 }
 
 .guideline-item p {
@@ -653,13 +679,19 @@ section h2 {
 }
 
 .roadmap-status {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
   padding: 0.25rem 0.75rem;
   border-radius: 15px;
   font-size: 0.875rem;
   font-weight: 500;
   background: var(--color-background);
   border: 1px solid var(--color-border);
+}
+
+.roadmap-status i {
+  font-size: 0.875rem;
 }
 
 /* Buttons */

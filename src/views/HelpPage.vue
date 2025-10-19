@@ -7,7 +7,7 @@
       </header>
 
       <section class="installation" data-aos="fade-up" data-aos-delay="200">
-        <h2>🚀 Installation</h2>
+        <h2><i class="fas fa-rocket"></i> Installation</h2>
 
         <div class="install-section">
           <h3>Production Installation</h3>
@@ -53,7 +53,7 @@ npm run build</code></pre>
       </section>
 
       <section class="configuration" data-aos="fade-up" data-aos-delay="400">
-        <h2>⚙️ Configuration</h2>
+        <h2><i class="fas fa-cog"></i> Configuration</h2>
 
         <div class="config-section">
           <h3>Basic Settings</h3>
@@ -142,7 +142,7 @@ npm run build</code></pre>
       </section>
 
       <section class="faq" data-aos="fade-up" data-aos-delay="800">
-        <h2>❓ Frequently Asked Questions</h2>
+        <h2><i class="fas fa-circle-question"></i> Frequently Asked Questions</h2>
 
         <div class="faq-item">
           <h3>How do I change the default hotkeys?</h3>
@@ -189,7 +189,7 @@ npm run build</code></pre>
       </section>
 
       <section class="troubleshooting" data-aos="fade-up" data-aos-delay="1000">
-        <h2>🔧 Troubleshooting</h2>
+        <h2><i class="fas fa-screwdriver-wrench"></i> Troubleshooting</h2>
 
         <div class="trouble-item">
           <h3>Screenshots appear blurry or pixelated</h3>
