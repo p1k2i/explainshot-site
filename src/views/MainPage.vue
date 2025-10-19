@@ -7,10 +7,14 @@
           A powerful screenshot annotation tool with advanced explanation features
         </p>
         <div class="hero-buttons">
-          <a href="#features" class="btn btn-primary">Learn More</a>
+          <RouterLink to="/download" class="btn btn-primary">
+            <span class="download-icon">⬇️</span>
+            Download Now
+          </RouterLink>
+          <a href="#features" class="btn btn-secondary">Learn More</a>
           <a
             href="https://github.com/p1k2i/explain-shot"
-            class="btn btn-secondary"
+            class="btn btn-outline"
             target="_blank"
           >
             View on GitHub
@@ -105,6 +109,7 @@
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
+import { RouterLink } from 'vue-router'
 
 onMounted(() => {
   // AOS will be initialized in main.ts
@@ -331,9 +336,26 @@ onMounted(() => {
   transform: translateY(-2px);
 }
 
+.btn-outline {
+  background: transparent;
+  color: var(--color-text);
+  border-color: var(--color-border);
+}
+
+.btn-outline:hover {
+  background: var(--color-background-soft);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
 .btn-large {
   padding: 1rem 2rem;
   font-size: 1.125rem;
+}
+
+.download-icon {
+  margin-right: 0.5rem;
 }
 
 /* Responsive */

@@ -9,6 +9,7 @@
 
       <div class="nav-menu" :class="{ 'nav-menu-open': isMenuOpen }">
         <RouterLink to="/" class="nav-link" @click="closeMenu">Main</RouterLink>
+        <RouterLink to="/download" class="nav-link" @click="closeMenu">Download</RouterLink>
         <RouterLink to="/help" class="nav-link" @click="closeMenu">Help</RouterLink>
         <RouterLink to="/support" class="nav-link" @click="closeMenu">Support</RouterLink>
 
