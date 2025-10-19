@@ -164,15 +164,15 @@
             <div class="contact-icon">📧</div>
             <h3>Email</h3>
             <p>General inquiries, support questions, or partnership opportunities.</p>
-            <a href="mailto:hello@explainshot.com" class="contact-link">hello@explainshot.com</a>
+            <a href="mailto:p1k2i.dev@gmail.com" class="contact-link">p1k2i.dev@gmail.com</a>
           </div>
 
           <div class="contact-card">
             <div class="contact-icon">💼</div>
             <h3>LinkedIn</h3>
             <p>Connect with the project maintainer for professional networking.</p>
-            <a href="https://linkedin.com/in/your-profile" class="contact-link" target="_blank">
-              linkedin.com/in/your-profile
+            <a href="https://linkedin.com/in/p1k2i" class="contact-link" target="_blank">
+              linkedin.com/in/p1k2i
             </a>
           </div>
 
@@ -180,8 +180,8 @@
             <div class="contact-icon">🐙</div>
             <h3>GitHub</h3>
             <p>Technical discussions, bug reports, and open-source collaboration.</p>
-            <a href="https://github.com/your-username" class="contact-link" target="_blank">
-              github.com/your-username
+            <a href="https://github.com/p1k2i" class="contact-link" target="_blank">
+              github.com/p1k2i
             </a>
           </div>
         </div>
