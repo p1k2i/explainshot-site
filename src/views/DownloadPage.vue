@@ -224,37 +224,17 @@
       </section>
 
       <section class="release-notes" data-aos="fade-up" data-aos-delay="1200">
-        <h2>📝 What's New in v0.1.0</h2>
+        <h2>📝 What's New</h2>
 
         <div class="changelog">
           <div class="changelog-section">
-            <h3>✨ New Features</h3>
+            <h3>v0.1.0 (initial pre-release)</h3>
             <ul>
-              <li>🎯 Smart region detection with automatic content recognition</li>
-              <li>🎨 Advanced annotation tools with customizable styles</li>
-              <li>⚡ Performance improvements with 40% faster capture times</li>
-              <li>🌍 Multi-language support (English, Spanish, French, German)</li>
-              <li>☁️ Cloud integration for seamless sharing and backup</li>
-            </ul>
-          </div>
-
-          <div class="changelog-section">
-            <h3>🔧 Improvements</h3>
-            <ul>
-              <li>Enhanced UI/UX with modern design principles</li>
-              <li>Better keyboard shortcuts and accessibility</li>
-              <li>Improved export options with more file formats</li>
-              <li>Optimized memory usage and stability</li>
-            </ul>
-          </div>
-
-          <div class="changelog-section">
-            <h3>🐛 Bug Fixes</h3>
-            <ul>
-              <li>Fixed screenshot corruption on high-DPI displays</li>
-              <li>Resolved annotation alignment issues</li>
-              <li>Fixed memory leaks during extended usage</li>
-              <li>Corrected color profile handling</li>
+              <li>Capture screenshots easily with hotkeys</li>
+              <li>Overlay tools for quick interactions</li>
+              <li>Screenshot gallery with AI chat</li>
+              <li>Customizable settings for personalization</li>
+              <li>AI chat powered by Ollama</li>
             </ul>
           </div>
         </div>
