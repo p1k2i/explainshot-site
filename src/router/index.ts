@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Main from '../views/Main.vue'
-import Help from '../views/Help.vue'
-import Support from '../views/Support.vue'
+import MainPage from '../views/MainPage.vue'
+import HelpPage from '../views/HelpPage.vue'
+import SupportPage from '../views/SupportPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -9,17 +9,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'main',
-      component: Main,
+      component: MainPage,
     },
     {
       path: '/help',
       name: 'help',
-      component: Help,
+      component: HelpPage,
     },
     {
       path: '/support',
       name: 'support',
-      component: Support,
+      component: SupportPage,
     },
   ],
   scrollBehavior(to, from, savedPosition) {
