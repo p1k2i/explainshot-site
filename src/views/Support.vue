@@ -251,8 +251,8 @@
           <div class="roadmap-item completed">
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
-              <h3>v1.0 - Core Features</h3>
-              <p>Basic screenshot capture, annotation tools, and file saving capabilities.</p>
+              <h3>v0.1.0 - Minimal Features</h3>
+              <p>Basic screenshot capture, settings and integration with Ollama.</p>
               <span class="roadmap-status">✅ Completed</span>
             </div>
           </div>
@@ -260,8 +260,10 @@
           <div class="roadmap-item in-progress">
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
-              <h3>v1.5 - Enhanced Annotations</h3>
-              <p>Advanced drawing tools, shape library, and text formatting options.</p>
+              <h3>v1.0 - First Major Release</h3>
+              <p>
+                Seamless integration with leading cloud LLMs, customizable presets for rapid region capture, and improved UI/UX for a refined user experience.
+              </p>
               <span class="roadmap-status">🚧 In Progress</span>
             </div>
           </div>
@@ -270,19 +272,11 @@
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
               <h3>v2.0 - Cloud Integration</h3>
-              <p>Cloud storage support, sharing links, and collaborative annotations.</p>
+              <p>Seamless ExplainShot cloud services for easier usage, instant sharing, and real-time collaborative annotations.</p>
               <span class="roadmap-status">📅 Planned</span>
             </div>
           </div>
 
-          <div class="roadmap-item planned">
-            <div class="roadmap-marker"></div>
-            <div class="roadmap-content">
-              <h3>v2.5 - Plugin System</h3>
-              <p>Extensible plugin architecture for custom integrations and workflows.</p>
-              <span class="roadmap-status">💭 Future</span>
-            </div>
-          </div>
         </div>
       </section>
     </div>
