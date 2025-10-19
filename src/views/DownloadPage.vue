@@ -232,9 +232,8 @@
             <ul>
               <li>Capture screenshots easily with hotkeys</li>
               <li>Overlay tools for quick interactions</li>
-              <li>Screenshot gallery with AI chat</li>
+              <li>Gallery with AI chat powered by Ollama</li>
               <li>Customizable settings for personalization</li>
-              <li>AI chat powered by Ollama</li>
             </ul>
           </div>
         </div>
