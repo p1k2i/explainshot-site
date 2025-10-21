@@ -10,9 +10,9 @@
         <div class="current-version">
           <div class="version-badge">
             <span class="version-label">Latest Release</span>
-            <span class="version-number">v0.1.0</span>
+            <span class="version-number">v0.1.1</span>
           </div>
-          <p class="version-date">Released on October 19, 2025</p>
+          <p class="version-date">Released on October 21, 2025</p>
         </div>
       </section>
 
@@ -30,10 +30,10 @@
                 Download Installer
                 <small>(.exe - ? MB)</small>
               </button>
-              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.1.0/ExplainShot-v0.1.0.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
+              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.1.1/ExplainShot-v0.1.1.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
                 <i class="fas fa-box"></i>
                 Portable Version
-                <small>(.zip - 52.3 MB)</small>
+                <small>(.zip - 53.1 MB)</small>
               </a>
             </div>
           </div>
@@ -234,6 +234,15 @@
               <li>Overlay tools for quick interactions</li>
               <li>Gallery with AI chat powered by Ollama</li>
               <li>Customizable settings for personalization</li>
+            </ul>
+          </div>
+          <div class="changelog-section">
+            <h3>v0.1.1 (Gallery Improvements)</h3>
+            <ul>
+              <li>Improved Gallery loading speed for faster access</li>
+              <li>Added Markdown support in chat</li>
+              <li>Implemented thumbnail caching and quality settings</li>
+              <li>Reduced log verbosity for better performance</li>
             </ul>
           </div>
         </div>
