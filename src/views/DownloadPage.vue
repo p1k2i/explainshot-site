@@ -228,12 +228,13 @@
 
         <div class="changelog">
           <div class="changelog-section">
-            <h3>v0.1.0 (initial pre-release)</h3>
+            <h3>v0.2.0 (Design and code Refactoring)</h3>
             <ul>
-              <li>Capture screenshots easily with hotkeys</li>
-              <li>Overlay tools for quick interactions</li>
-              <li>Gallery with AI chat powered by Ollama</li>
-              <li>Customizable settings for personalization</li>
+              <li>The Menu-overlay was removed</li>
+              <li>New method to select screenshot area and tools to draw</li>
+              <li>The "Compact" for conversation in chats</li>
+              <li>Performance, design and bug fixes</li>
+              <li>The default hotkeys changes</li>
             </ul>
           </div>
           <div class="changelog-section">
@@ -246,13 +247,12 @@
             </ul>
           </div>
           <div class="changelog-section">
-            <h3>v0.2.0 (Design and code Refactoring)</h3>
+            <h3>v0.1.0 (initial pre-release)</h3>
             <ul>
-              <li>The Menu-overlay was removed</li>
-              <li>New method to select screenshot area and tools to draw</li>
-              <li>The "Compact" for conversation in chats</li>
-              <li>Performance, design and bug fixes</li>
-              <li>The default hotkeys changes</li>
+              <li>Capture screenshots easily with hotkeys</li>
+              <li>Overlay tools for quick interactions</li>
+              <li>Gallery with AI chat powered by Ollama</li>
+              <li>Customizable settings for personalization</li>
             </ul>
           </div>
         </div>
