@@ -10,9 +10,9 @@
         <div class="current-version">
           <div class="version-badge">
             <span class="version-label">Latest Release</span>
-            <span class="version-number">v0.1.1</span>
+            <span class="version-number">v0.2.0</span>
           </div>
-          <p class="version-date">Released on October 21, 2025</p>
+          <p class="version-date">Released on September 5, 2026</p>
         </div>
       </section>
 
@@ -30,10 +30,10 @@
                 Download Installer
                 <small>(.exe - ? MB)</small>
               </button>
-              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.1.1/ExplainShot-v0.1.1.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
+              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.2.0/ExplainShot-v0.2.0.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
                 <i class="fas fa-box"></i>
                 Portable Version
-                <small>(.zip - 53.1 MB)</small>
+                <small>(.zip - 49.1 MB)</small>
               </a>
             </div>
           </div>
@@ -243,6 +243,16 @@
               <li>Added Markdown support in chat</li>
               <li>Implemented thumbnail caching and quality settings</li>
               <li>Reduced log verbosity for better performance</li>
+            </ul>
+          </div>
+          <div class="changelog-section">
+            <h3>v0.2.0 (Design and code Refactoring)</h3>
+            <ul>
+              <li>The Menu-overlay was removed</li>
+              <li>New method to select screenshot area and tools to draw</li>
+              <li>The "Compact" for conversation in chats</li>
+              <li>Performance, design and bug fixes</li>
+              <li>The default hotkeys changes</li>
             </ul>
           </div>
         </div>
