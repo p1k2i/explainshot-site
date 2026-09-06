@@ -46,6 +46,24 @@
       html { visibility: hidden; }
       html.light, html.dark { visibility: visible; }
     </style>
+
+    <!-- Apply theme before paint to avoid a flash of the wrong theme -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('explainshot-theme')
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+          document.documentElement.classList.add(theme)
+        } catch (e) {
+          document.documentElement.classList.add('light')
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="app"></div>

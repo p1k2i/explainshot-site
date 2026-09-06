@@ -20,14 +20,14 @@
               <a
                 href="https://github.com/p1k2i/explain-shot"
                 class="btn btn-primary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 View Repository
               </a>
               <a
                 href="https://github.com/p1k2i/explain-shot/blob/main/CONTRIBUTING.md"
                 class="btn btn-secondary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Contribution Guidelines
               </a>
@@ -42,14 +42,14 @@
               <a
                 href="https://github.com/p1k2i/explain-shot/issues/new?template=bug_report.md"
                 class="btn btn-primary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Report Bug
               </a>
               <a
                 href="https://github.com/p1k2i/explain-shot/issues/new?template=feature_request.md"
                 class="btn btn-secondary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Request Feature
               </a>
@@ -64,7 +64,7 @@
               <a
                 href="https://github.com/p1k2i/explain-shot/wiki"
                 class="btn btn-primary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Documentation
               </a>
@@ -80,11 +80,11 @@
               <a
                 href="https://github.com/p1k2i/explain-shot/discussions"
                 class="btn btn-primary"
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
               >
                 Discussions
               </a>
-              <a href="https://discord.gg/explainshot" class="btn btn-secondary" target="_blank">
+              <a href="https://discord.gg/explainshot" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                 Discord Community
               </a>
             </div>
@@ -112,7 +112,7 @@
             <a
               href="https://github.com/sponsors/p1k2i"
               class="btn btn-primary btn-large"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               Become a Sponsor
             </a>
@@ -125,7 +125,7 @@
             <a
               href="https://opencollective.com/explainshot"
               class="btn btn-secondary"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               Support on OpenCollective
             </a>
@@ -171,7 +171,7 @@
             <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
             <h3>LinkedIn</h3>
             <p>Connect with the project maintainer for professional networking.</p>
-            <a href="https://linkedin.com/in/p1k2i" class="contact-link" target="_blank">
+            <a href="https://linkedin.com/in/p1k2i" class="contact-link" target="_blank" rel="noopener noreferrer">
               linkedin.com/in/p1k2i
             </a>
           </div>
@@ -180,7 +180,7 @@
             <div class="contact-icon"><i class="fab fa-github"></i></div>
             <h3>GitHub</h3>
             <p>Technical discussions, bug reports, and open-source collaboration.</p>
-            <a href="https://github.com/p1k2i" class="contact-link" target="_blank">
+            <a href="https://github.com/p1k2i" class="contact-link" target="_blank" rel="noopener noreferrer">
               github.com/p1k2i
             </a>
           </div>

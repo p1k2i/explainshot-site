@@ -87,7 +87,7 @@
             <a
               href="https://github.com/p1k2i/explain-shot/releases"
               class="btn btn-outline"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               View All Releases
             </a>
@@ -258,7 +258,7 @@
         </div>
 
         <div class="changelog-link">
-          <a href="https://github.com/p1k2i/explain-shot/blob/main/CHANGELOG.md" target="_blank" class="btn btn-outline">
+          <a href="https://github.com/p1k2i/explain-shot/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
             View Complete Changelog
           </a>
         </div>
@@ -289,7 +289,7 @@
             <a
               href="https://github.com/p1k2i/explain-shot/issues"
               class="btn btn-secondary"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
             >
               Report Bug
             </a>

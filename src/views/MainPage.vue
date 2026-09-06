@@ -16,6 +16,7 @@
             href="https://github.com/p1k2i/explain-shot"
             class="btn btn-outline"
             target="_blank"
+            rel="noopener noreferrer"
           >
             View on GitHub
           </a>
@@ -84,6 +85,7 @@
             href="https://github.com/p1k2i/explain-shot/releases"
             class="btn btn-primary btn-large"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Download Latest Release
           </a>
@@ -91,6 +93,7 @@
             href="https://github.com/p1k2i/explain-shot"
             class="btn btn-secondary btn-large"
             target="_blank"
+            rel="noopener noreferrer"
           >
             View Repository
           </a>
@@ -101,12 +104,7 @@
 </template>
 
 <script setup lang="ts">
-import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
-
-onMounted(() => {
-  // AOS will be initialized in main.ts
-})
 </script>
 
 <style scoped>

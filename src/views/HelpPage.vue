@@ -180,7 +180,7 @@ npm run build</code></pre>
           <h3>How do I report bugs or request features?</h3>
           <p>
             Please visit our
-            <a href="https://github.com/p1k2i/explain-shot/issues" target="_blank"
+            <a href="https://github.com/p1k2i/explain-shot/issues" target="_blank" rel="noopener noreferrer"
               >GitHub Issues</a
             >
             page to report bugs or request new features.

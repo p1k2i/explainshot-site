@@ -17,8 +17,9 @@
           class="theme-toggle"
           @click="themeStore.toggleTheme()"
           :title="themeStore.isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+          :aria-label="themeStore.isDark ? 'Switch to light mode' : 'Switch to dark mode'"
         >
-          <span class="theme-icon">{{ themeStore.isDark ? '☀️' : '🌙' }}</span>
+          <i class="theme-icon" :class="themeStore.isDark ? 'fas fa-sun' : 'fas fa-moon'"></i>
         </button>
       </div>
 
