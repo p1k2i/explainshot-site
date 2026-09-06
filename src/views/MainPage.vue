@@ -4,7 +4,8 @@
       <div class="container">
         <h1 class="hero-title">ExplainShot</h1>
         <p class="hero-subtitle">
-          A powerful screenshot annotation tool with advanced explanation features
+          Capture any region of your screen and have a conversation about it with a vision-capable
+          AI — powered by Ollama, LM Studio, or any OpenAI-compatible endpoint.
         </p>
         <div class="hero-buttons">
           <RouterLink to="/download" class="btn btn-primary">
@@ -30,20 +31,35 @@
         <div class="features-grid">
           <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
             <div class="feature-icon"><i class="fas fa-camera"></i></div>
-            <h3>Smart Screenshots</h3>
-            <p>Capture screenshots with intelligent region selection and configured presets.</p>
+            <h3>Capture &amp; Annotate</h3>
+            <p>
+              Select any region across your displays, then mark it up with arrows, text, rectangles,
+              and blur before you send it off.
+            </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
-            <div class="feature-icon"><i class="fas fa-image"></i></div>
-            <h3>Overlay and Gallery</h3>
+            <div class="feature-icon"><i class="fas fa-comments"></i></div>
+            <h3>AI Conversations</h3>
             <p>
-              Use overlays for quick access and chat about your screenshots in the built-in gallery.
+              Ask a vision-capable model what's on screen and keep the conversation going. Every chat
+              is saved per screenshot in the built-in gallery.
+            </p>
+          </div>
+          <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+            <div class="feature-icon"><i class="fas fa-robot"></i></div>
+            <h3>Bring Your Own AI</h3>
+            <p>
+              Point it at Ollama, LM Studio, or the OpenAI API — anything that speaks the
+              OpenAI-compatible protocol. Run a local model to keep everything private.
             </p>
           </div>
           <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
             <div class="feature-icon"><i class="fas fa-palette"></i></div>
             <h3>Customizable</h3>
-            <p>Extensive theming options and configurable hotkeys to match your workflow.</p>
+            <p>
+              Dark and light themes, a custom accent colour, rebindable global hotkeys, and reusable
+              prompt presets to match your workflow.
+            </p>
           </div>
         </div>
       </div>
@@ -64,14 +80,14 @@
       <div class="container">
         <h2>Modern Architecture</h2>
         <p class="architecture-description">
-          ExplainShot is built with a clean MVC (Model-View-Controller) pattern and event-driven
-          architecture, ensuring maintainable code and excellent performance. The modular design
-          allows for easy extensibility and customization.
+          ExplainShot is a native Python desktop app built on PyQt6 and an async Qt event loop
+          (qasync), with a lightweight signal bus tying its modules together. Screenshots, chat
+          history, and presets are persisted locally in SQLite, so your data stays on your machine.
         </p>
         <div class="architecture-features">
           <div class="arch-item"><i class="fas fa-cube"></i> Modular Design</div>
           <div class="arch-item"><i class="fas fa-code-branch"></i> Event-Driven</div>
-          <div class="arch-item"><i class="fas fa-sitemap"></i> MVC Pattern</div>
+          <div class="arch-item"><i class="fas fa-database"></i> Local-First Storage</div>
           <div class="arch-item"><i class="fas fa-wrench"></i> Extensible</div>
         </div>
       </div>

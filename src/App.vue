@@ -1,15 +1,36 @@
 <script setup lang="ts">
-import { onMounted } from 'vue'
-import { RouterView } from 'vue-router'
+import { onMounted, watch, nextTick } from 'vue'
+import { RouterView, useRoute } from 'vue-router'
+import AOS from 'aos'
 import NavBar from './components/NavBar.vue'
 import { useThemeStore } from './stores/theme'
 
 const themeStore = useThemeStore()
+const route = useRoute()
 
 onMounted(() => {
   // Initialize theme on app start
   themeStore.initTheme()
+
+  // Initialize AOS after the DOM is mounted so it can see the elements
+  // Vue just rendered. Initializing before mount (in main.ts) finds nothing,
+  // which left deep-linked/refreshed pages stuck at opacity:0.
+  AOS.init({
+    duration: 800,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 50,
+  })
 })
+
+// Re-scan for freshly mounted elements after each client-side navigation;
+// without this, AOS never animates the new page and its content stays hidden.
+watch(
+  () => route.path,
+  () => {
+    nextTick(() => AOS.refreshHard())
+  },
+)
 </script>
 
 <template>

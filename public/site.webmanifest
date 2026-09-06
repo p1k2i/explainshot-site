@@ -1,7 +1,7 @@
 {
   "name": "ExplainShot",
   "short_name": "ExplainShot",
-  "description": "Advanced Screenshot Annotation Tool",
+  "description": "Capture your screen and explain it with a vision-capable AI",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",

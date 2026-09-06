@@ -19,35 +19,35 @@
           </div>
 
           <div class="code-block">
-            <h4>macOS</h4>
-            <pre><code># Download the .dmg file from releases
-# Drag ExplainShot to Applications folder
-# Launch from Applications</code></pre>
-          </div>
-
-          <div class="code-block">
-            <h4>Linux</h4>
-            <pre><code># Download the .AppImage or .deb package
-# Make executable: chmod +x ExplainShot.AppImage
-# Run: ./ExplainShot.AppImage</code></pre>
+            <h4>macOS &amp; Linux</h4>
+            <pre><code># Packaged builds are coming in a future release.
+# For now, run from source with Python 3.12
+# (see Development Setup below).</code></pre>
           </div>
         </div>
 
         <div class="install-section">
           <h3>Development Setup</h3>
+          <p class="install-note">
+            ExplainShot is a Python 3.12 desktop app built with PyQt6. To run it from source:
+          </p>
           <div class="code-block">
             <pre><code># Clone the repository
 git clone https://github.com/p1k2i/explain-shot.git
 cd explain-shot
 
+# Create and activate a virtual environment (Python 3.12)
+python -m venv venv
+venv\Scripts\activate
+
 # Install dependencies
-npm install
+pip install -r requirements.txt
 
-# Run in development mode
-npm run dev
+# Run the app
+python main.py
 
-# Build for production
-npm run build</code></pre>
+# Build a portable executable with PyInstaller
+.\build.ps1 -Full</code></pre>
           </div>
         </div>
       </section>
@@ -58,21 +58,33 @@ npm run build</code></pre>
         <div class="config-section">
           <h3>Basic Settings</h3>
           <div class="setting-item">
+            <h4>AI Provider</h4>
+            <p>
+              Point ExplainShot at any OpenAI-compatible endpoint, pick a vision-capable model, and
+              use "Test connection" to check it.
+            </p>
+            <code>Settings → AI provider → Base URL / API key / Model</code>
+          </div>
+
+          <div class="setting-item">
+            <h4>Save Location &amp; Format</h4>
+            <p>Choose where screenshots are stored and whether they're saved as PNG or JPEG.</p>
+            <code>Settings → Screenshots → Save folder / Image format</code>
+          </div>
+
+          <div class="setting-item">
+            <h4>Appearance</h4>
+            <p>
+              Switch between dark and light themes, set an accent colour, and adjust the gallery
+              thumbnail size.
+            </p>
+            <code>Settings → Appearance → Theme / Accent colour</code>
+          </div>
+
+          <div class="setting-item">
             <h4>Auto-start</h4>
-            <p>Configure ExplainShot to start automatically when your system boots.</p>
-            <code>Settings → General → Launch at startup</code>
-          </div>
-
-          <div class="setting-item">
-            <h4>Default Save Location</h4>
-            <p>Set your preferred directory for saving screenshots.</p>
-            <code>Settings → Files → Default save location</code>
-          </div>
-
-          <div class="setting-item">
-            <h4>Image Quality</h4>
-            <p>Adjust compression and quality settings for your screenshots.</p>
-            <code>Settings → Image → Quality settings</code>
+            <p>Launch ExplainShot automatically when Windows starts.</p>
+            <code>Settings → Appearance → Launch when Windows starts</code>
           </div>
         </div>
 
@@ -81,13 +93,21 @@ npm run build</code></pre>
           <div class="hotkey-grid">
             <div class="hotkey-item">
               <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
-              <span>Capture selected area</span>
+              <span>Capture a region</span>
             </div>
             <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>
-              <span>Open overlay</span>
+              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd>
+              <span>Open / toggle the gallery</span>
+            </div>
+            <div class="hotkey-item">
+              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+              <span>Open settings</span>
             </div>
           </div>
+          <p class="hotkey-note">
+            All three are rebindable in <code>Settings → Hotkeys</code> and are registered globally on
+            Windows.
+          </p>
         </div>
       </section>
 
@@ -100,8 +120,8 @@ npm run build</code></pre>
             <div class="step-content">
               <h3>Launch ExplainShot</h3>
               <p>
-                Start the application and it will run in your system tray. The icon will appear in
-                the notification area.
+                The app runs in your system tray. Right-click the icon (or press a hotkey) for
+                capture, gallery, and settings; double-click to jump straight to the gallery.
               </p>
             </div>
           </div>
@@ -109,10 +129,11 @@ npm run build</code></pre>
           <div class="step">
             <div class="step-number">2</div>
             <div class="step-content">
-              <h3>Take a Screenshot</h3>
+              <h3>Capture &amp; Annotate</h3>
               <p>
-                Use the hotkeys or right-click the tray icon to capture your screen. Choose from
-                area, full screen, or window capture.
+                Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> and drag to select a region
+                across your displays. Mark it up with arrows, text, rectangles, or blur, then choose
+                "Save &amp; open".
               </p>
             </div>
           </div>
@@ -120,10 +141,10 @@ npm run build</code></pre>
           <div class="step">
             <div class="step-number">3</div>
             <div class="step-content">
-              <h3>Annotate & Explain</h3>
+              <h3>Chat With the AI</h3>
               <p>
-                Use the built-in editor to add arrows, text, shapes, highlights, and explanations to
-                your screenshot.
+                Your screenshot lands in the gallery. Pick a prompt preset or type your own question
+                — a vision-capable model explains what's on screen and answers your follow-ups.
               </p>
             </div>
           </div>
@@ -131,10 +152,10 @@ npm run build</code></pre>
           <div class="step">
             <div class="step-number">4</div>
             <div class="step-content">
-              <h3>Save or Share</h3>
+              <h3>Keep the Thread</h3>
               <p>
-                Save to your preferred location or copy to clipboard for immediate sharing in chats,
-                emails, or documents.
+                Every conversation is saved per screenshot. Edit a message to branch the chat,
+                regenerate replies, or compact long conversations to stay within the model's context.
               </p>
             </div>
           </div>
@@ -145,34 +166,55 @@ npm run build</code></pre>
         <h2><i class="fas fa-circle-question"></i> Frequently Asked Questions</h2>
 
         <div class="faq-item">
+          <h3>Which AI models can I use?</h3>
+          <p>
+            Any vision-capable model served over an OpenAI-compatible API — for example
+            <code>llama3.2-vision</code> or <code>qwen2.5-vl</code> through Ollama or LM Studio, or
+            <code>gpt-4o</code> through the OpenAI API. Configure it in Settings → AI provider and use
+            "Fetch models" to list what your endpoint offers.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Does my data leave my computer?</h3>
+          <p>
+            Screenshots and prompts are only sent to the endpoint you configure. Point ExplainShot at
+            a local model (Ollama or LM Studio) to keep everything on your machine; if you use a
+            cloud endpoint such as OpenAI, your requests go there instead. Screenshots, chat history,
+            and settings are always stored locally.
+          </p>
+        </div>
+
+        <div class="faq-item">
           <h3>How do I change the default hotkeys?</h3>
           <p>
-            Go to Settings → Hotkeys and click on any hotkey to customize it. Make sure your new
-            combination doesn't conflict with other applications.
+            Go to Settings → Hotkeys and record a new combination for capture, gallery, or settings.
+            Make sure it doesn't conflict with other applications.
           </p>
         </div>
 
         <div class="faq-item">
           <h3>Can I use ExplainShot on multiple monitors?</h3>
           <p>
-            Yes! ExplainShot automatically detects all connected displays. When capturing, you can
-            select which monitor to capture from.
+            Yes. The capture overlay spans your entire desktop, so you can select a region anywhere
+            across all connected displays.
           </p>
         </div>
 
         <div class="faq-item">
           <h3>What image formats are supported?</h3>
           <p>
-            ExplainShot supports PNG, JPEG, WebP, and BMP formats. PNG is recommended for
-            screenshots with text and annotations.
+            Screenshots are saved as PNG or JPEG — pick your default in Settings → Screenshots. PNG
+            is recommended for crisp text and annotations.
           </p>
         </div>
 
         <div class="faq-item">
           <h3>Is there a portable version available?</h3>
           <p>
-            Yes, the portable version doesn't require installation and stores all settings in the
-            application folder.
+            Yes — the Windows download is a portable build that needs no installation. Your settings,
+            screenshots, and chat history are stored under
+            <code>%APPDATA%\ExplainShot</code>.
           </p>
         </div>
 
@@ -190,6 +232,15 @@ npm run build</code></pre>
 
       <section class="troubleshooting" data-aos="fade-up" data-aos-delay="1000">
         <h2><i class="fas fa-screwdriver-wrench"></i> Troubleshooting</h2>
+
+        <div class="trouble-item">
+          <h3>The AI isn't responding or returns an error</h3>
+          <p>
+            Open Settings → AI provider and use "Test connection". Check the Base URL, make sure your
+            local server (Ollama or LM Studio) is running, and confirm the selected model is
+            vision-capable. For cloud endpoints, verify your API key.
+          </p>
+        </div>
 
         <div class="trouble-item">
           <h3>Screenshots appear blurry or pixelated</h3>
@@ -381,6 +432,39 @@ section h2 {
   font-weight: 500;
 }
 
+.install-note {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.hotkey-note {
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.hotkey-note code,
+.install-note code {
+  background: var(--color-background);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  font-size: 0.85rem;
+  border: 1px solid var(--color-border);
+}
+
+.step-content kbd {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.85rem;
+  font-family: inherit;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
 /* Usage Steps */
 .usage-steps {
   display: flex;
@@ -441,6 +525,16 @@ section h2 {
 .faq-item p {
   color: var(--color-text-muted);
   line-height: 1.6;
+}
+
+.faq-item code {
+  background: var(--color-background);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Consolas', 'Courier New', monospace;
+  font-size: 0.85rem;
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
 }
 
 .faq-item a {

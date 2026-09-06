@@ -25,51 +25,39 @@
             <h3>Windows</h3>
             <p class="platform-info">Windows 10/11 (64-bit)</p>
             <div class="download-buttons">
-              <button class="btn btn-primary" disabled @click="trackDownload('windows-installer')">
+              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.2.0/ExplainShot-v0.2.0.zip" class="btn btn-primary" @click="trackDownload('windows-portable')" download>
                 <i class="fas fa-download"></i>
-                Download Installer
-                <small>(.exe - ? MB)</small>
-              </button>
-              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.2.0/ExplainShot-v0.2.0.zip" class="btn btn-secondary" @click="trackDownload('windows-portable')" download>
-                <i class="fas fa-box"></i>
                 Portable Version
                 <small>(.zip - 49.1 MB)</small>
               </a>
+              <button class="btn btn-secondary" disabled>
+                <i class="fas fa-clock"></i>
+                Installer
+                <small>(coming soon)</small>
+              </button>
             </div>
           </div>
 
           <div class="platform-card">
             <div class="platform-icon"><i class="fab fa-apple"></i></div>
-            <h3>macOS</h3>
-            <p class="platform-info">macOS 11.0+ (Universal Binary)</p>
+            <h3>macOS <span class="soon-badge">Coming soon</span></h3>
+            <p class="platform-info">Planned for a future release</p>
             <div class="download-buttons">
-              <button class="btn btn-primary" disabled @click="trackDownload('macos-dmg')">
-                <i class="fas fa-download"></i>
-                Download DMG
-                <small>(.dmg - ? MB)</small>
-              </button>
-              <button class="btn btn-secondary" disabled @click="trackDownload('macos-zip')">
-                <i class="fas fa-box"></i>
-                ZIP Archive
-                <small>(.zip - ? MB)</small>
+              <button class="btn btn-primary" disabled>
+                <i class="fas fa-clock"></i>
+                Not yet available
               </button>
             </div>
           </div>
 
           <div class="platform-card">
             <div class="platform-icon"><i class="fab fa-linux"></i></div>
-            <h3>Linux</h3>
-            <p class="platform-info">Ubuntu 20.04+ / Debian 11+ / Fedora 35+</p>
+            <h3>Linux <span class="soon-badge">Coming soon</span></h3>
+            <p class="platform-info">Planned for a future release</p>
             <div class="download-buttons">
-              <button class="btn btn-primary" disabled @click="trackDownload('linux-appimage')">
-                <i class="fas fa-download"></i>
-                Download AppImage
-                <small>(.AppImage - ? MB)</small>
-              </button>
-              <button class="btn btn-secondary" disabled @click="trackDownload('linux-deb')">
-                <i class="fas fa-box"></i>
-                DEB Package
-                <small>(.deb - ? MB)</small>
+              <button class="btn btn-primary" disabled>
+                <i class="fas fa-clock"></i>
+                Not yet available
               </button>
             </div>
           </div>
@@ -135,30 +123,29 @@
           <div class="requirement-card">
             <h3><i class="fab fa-windows"></i> Windows</h3>
             <ul>
-              <li>Windows 10 version 1903 or later (64-bit)</li>
+              <li>Windows 10 or 11 (64-bit)</li>
               <li>4 GB RAM minimum, 8 GB recommended</li>
-              <li>200 MB free disk space</li>
-              <li>.NET Framework 4.8 or later</li>
+              <li>~200 MB free disk space</li>
+              <li>No runtime prerequisites — everything is bundled</li>
+              <li>A vision-capable AI endpoint (local Ollama / LM Studio, or an OpenAI API key)</li>
             </ul>
           </div>
 
           <div class="requirement-card">
-            <h3><i class="fab fa-apple"></i> macOS</h3>
+            <h3><i class="fab fa-apple"></i> macOS <span class="soon-badge">Planned</span></h3>
             <ul>
-              <li>macOS 11.0 (Big Sur) or later</li>
-              <li>4 GB RAM minimum, 8 GB recommended</li>
-              <li>150 MB free disk space</li>
-              <li>Intel or Apple Silicon processor</li>
+              <li>Support for macOS is planned for a future release</li>
+              <li>Intel and Apple Silicon</li>
+              <li>Follow the repository for progress</li>
             </ul>
           </div>
 
           <div class="requirement-card">
-            <h3><i class="fab fa-linux"></i> Linux</h3>
+            <h3><i class="fab fa-linux"></i> Linux <span class="soon-badge">Planned</span></h3>
             <ul>
-              <li>Ubuntu 20.04+ / Debian 11+ / Fedora 35+</li>
-              <li>4 GB RAM minimum, 8 GB recommended</li>
-              <li>180 MB free disk space</li>
-              <li>X11 or Wayland display server</li>
+              <li>Support for Linux is planned for a future release</li>
+              <li>X11 and Wayland targeted</li>
+              <li>Follow the repository for progress</li>
             </ul>
           </div>
         </div>
@@ -183,41 +170,30 @@
           <div v-if="activeTab === 'windows'" class="installation-steps">
             <h3>Windows Installation</h3>
             <ol>
-              <li>Download the ExplainShot installer (.exe file)</li>
-              <li>Run the installer as Administrator if prompted</li>
-              <li>Follow the installation wizard</li>
-              <li>Launch ExplainShot from the Start Menu or Desktop shortcut</li>
-              <li>Configure your preferences in the Settings menu</li>
+              <li>Download the portable <code>.zip</code> from the download section above</li>
+              <li>Extract it to a folder of your choice (your user folder, or even a USB drive)</li>
+              <li>Open the extracted folder and run <code>ExplainShot.exe</code></li>
+              <li>ExplainShot starts in the system tray — right-click the tray icon for capture, gallery, and settings</li>
+              <li>Open <strong>Settings → AI provider</strong> and point it at your endpoint (Ollama, LM Studio, or OpenAI)</li>
             </ol>
             <div class="tip">
-              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> Use the portable version if you don't have admin rights or want to run from a USB drive.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> The portable build needs no installation and no admin rights. Windows SmartScreen may warn on first launch — choose "More info → Run anyway".
             </div>
           </div>
 
           <div v-if="activeTab === 'macos'" class="installation-steps">
-            <h3>macOS Installation</h3>
-            <ol>
-              <li>Download the ExplainShot DMG file</li>
-              <li>Open the DMG file and drag ExplainShot to your Applications folder</li>
-              <li>Right-click ExplainShot and select "Open" (required for first launch)</li>
-              <li>Click "Open" in the security dialog to confirm</li>
-              <li>ExplainShot will launch and be available in your Applications</li>
-            </ol>
+            <h3>macOS</h3>
+            <p>Packaged macOS builds aren't available yet — cross-platform support is planned for a future release.</p>
             <div class="tip">
-              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> You might need to go to System Preferences > Security & Privacy to allow ExplainShot to run.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> ExplainShot is written in Python, so developers can already run it from source with Python 3.12. See the <a href="https://github.com/p1k2i/explain-shot" target="_blank" rel="noopener noreferrer">repository</a> for setup instructions.
             </div>
           </div>
 
           <div v-if="activeTab === 'linux'" class="installation-steps">
-            <h3>Linux Installation</h3>
-            <ol>
-              <li>Download the AppImage file</li>
-              <li>Make it executable: <code>chmod +x ExplainShot-*.AppImage</code></li>
-              <li>Run the AppImage: <code>./ExplainShot-*.AppImage</code></li>
-              <li>Optionally, integrate it with your desktop environment</li>
-            </ol>
+            <h3>Linux</h3>
+            <p>Packaged Linux builds aren't available yet — cross-platform support is planned for a future release.</p>
             <div class="tip">
-              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> For DEB/RPM packages, use your package manager to install and get automatic integration.
+              <strong><i class="fas fa-lightbulb"></i> Tip:</strong> ExplainShot is written in Python, so developers can already run it from source with Python 3.12. See the <a href="https://github.com/p1k2i/explain-shot" target="_blank" rel="noopener noreferrer">repository</a> for setup instructions.
             </div>
           </div>
         </div>
@@ -228,13 +204,15 @@
 
         <div class="changelog">
           <div class="changelog-section">
-            <h3>v0.2.0 (Design and code Refactoring)</h3>
+            <h3>v0.2.0 (Design &amp; Code Refactoring)</h3>
             <ul>
-              <li>The Menu-overlay was removed</li>
-              <li>New method to select screenshot area and tools to draw</li>
-              <li>The "Compact" for conversation in chats</li>
-              <li>Performance, design and bug fixes</li>
-              <li>The default hotkeys changes</li>
+              <li>Major internal refactor for a faster, more maintainable app</li>
+              <li>Redesigned capture overlay with drawing tools (arrow, text, rectangle, blur)</li>
+              <li>Removed the old menu-overlay in favour of the tray menu and hotkeys</li>
+              <li>Compact long conversations to keep them within the model's context</li>
+              <li>Branching chats — edit and regenerate any message</li>
+              <li>Refreshed Fluent-style UI, plus performance and bug fixes</li>
+              <li>Updated default hotkeys</li>
             </ul>
           </div>
           <div class="changelog-section">
@@ -438,6 +416,21 @@ section h2 {
   font-size: 1.5rem;
   color: var(--color-heading);
   margin-bottom: 0.5rem;
+}
+
+.soon-badge {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  background: var(--color-primary-light, rgba(59, 130, 246, 0.12));
+  border: 1px solid var(--color-primary);
+  border-radius: 999px;
 }
 
 .platform-info {

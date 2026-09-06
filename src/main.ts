@@ -3,8 +3,9 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
-// AOS (Animate On Scroll) imports
-import AOS from 'aos'
+// AOS (Animate On Scroll) styles. AOS itself is initialized in App.vue
+// once the DOM is mounted — initializing before mount finds no elements
+// and can leave a hard-loaded page stuck at opacity:0.
 import 'aos/dist/aos.css'
 
 // FontAwesome imports
@@ -18,13 +19,5 @@ const pinia = createPinia()
 
 app.use(pinia)
 app.use(router)
-
-// Initialize AOS
-AOS.init({
-  duration: 800,
-  easing: 'ease-out-cubic',
-  once: true,
-  offset: 50,
-})
 
 app.mount('#app')

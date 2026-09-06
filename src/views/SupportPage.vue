@@ -271,6 +271,18 @@
           <div class="roadmap-item planned">
             <div class="roadmap-marker"></div>
             <div class="roadmap-content">
+              <h3>macOS &amp; Linux Builds</h3>
+              <p>
+                ExplainShot ships for Windows today. Packaged macOS and Linux builds are planned so
+                the app runs natively across every desktop.
+              </p>
+              <span class="roadmap-status"><i class="fas fa-calendar-days"></i> Planned</span>
+            </div>
+          </div>
+
+          <div class="roadmap-item planned">
+            <div class="roadmap-marker"></div>
+            <div class="roadmap-content">
               <h3>v2.0 - Cloud Integration</h3>
                 <p>Simplifying the setup process for new users with built-in services, instant sharing and storage.</p>
               <span class="roadmap-status"><i class="fas fa-calendar-days"></i> Planned</span>
