@@ -16,7 +16,7 @@ onMounted(() => {
   // Vue just rendered. Initializing before mount (in main.ts) finds nothing,
   // which left deep-linked/refreshed pages stuck at opacity:0.
   AOS.init({
-    duration: 800,
+    duration: 450,
     easing: 'ease-out-cubic',
     once: true,
     offset: 50,

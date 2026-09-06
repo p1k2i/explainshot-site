@@ -6,7 +6,7 @@
         <p>Everything you need to know to get started with ExplainShot</p>
       </header>
 
-      <section class="installation" data-aos="fade-up" data-aos-delay="200">
+      <section class="installation" data-aos="fade-up">
         <h2><i class="fas fa-rocket"></i> Installation</h2>
 
         <div class="install-section">
@@ -52,7 +52,7 @@ python main.py
         </div>
       </section>
 
-      <section class="configuration" data-aos="fade-up" data-aos-delay="400">
+      <section class="configuration" data-aos="fade-up">
         <h2><i class="fas fa-cog"></i> Configuration</h2>
 
         <div class="config-section">
@@ -111,7 +111,7 @@ python main.py
         </div>
       </section>
 
-      <section class="usage" data-aos="fade-up" data-aos-delay="600">
+      <section class="usage" data-aos="fade-up">
         <h2>📖 Usage Instructions</h2>
 
         <div class="usage-steps">
@@ -162,7 +162,7 @@ python main.py
         </div>
       </section>
 
-      <section class="faq" data-aos="fade-up" data-aos-delay="800">
+      <section class="faq" data-aos="fade-up">
         <h2><i class="fas fa-circle-question"></i> Frequently Asked Questions</h2>
 
         <div class="faq-item">
@@ -230,7 +230,7 @@ python main.py
         </div>
       </section>
 
-      <section class="troubleshooting" data-aos="fade-up" data-aos-delay="1000">
+      <section class="troubleshooting" data-aos="fade-up">
         <h2><i class="fas fa-screwdriver-wrench"></i> Troubleshooting</h2>
 
         <div class="trouble-item">

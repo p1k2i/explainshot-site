@@ -6,7 +6,7 @@
         <p>Help improve ExplainShot and connect with our community</p>
       </header>
 
-      <section class="contribute" data-aos="fade-up" data-aos-delay="200">
+      <section class="contribute" data-aos="fade-up">
         <h2><i class="fas fa-handshake"></i> How to Contribute</h2>
 
         <div class="contribute-grid">
@@ -92,7 +92,7 @@
         </div>
       </section>
 
-      <section class="donate" data-aos="fade-up" data-aos-delay="400">
+      <section class="donate" data-aos="fade-up">
         <h2><i class="fas fa-heart"></i> Support the Project</h2>
         <p class="donate-intro">
           ExplainShot is free and open-source software. Your support helps us maintain and improve
@@ -156,7 +156,7 @@
         </div>
       </section>
 
-      <section class="contact" data-aos="fade-up" data-aos-delay="600">
+      <section class="contact" data-aos="fade-up">
         <h2><i class="fas fa-envelope"></i> Get in Touch</h2>
 
         <div class="contact-grid">
@@ -187,7 +187,7 @@
         </div>
       </section>
 
-      <section class="community-guidelines" data-aos="fade-up" data-aos-delay="800">
+      <section class="community-guidelines" data-aos="fade-up">
         <h2><i class="fas fa-list"></i> Community Guidelines</h2>
 
         <div class="guidelines-content">
@@ -241,7 +241,7 @@
         </div>
       </section>
 
-      <section class="roadmap" data-aos="fade-up" data-aos-delay="1000">
+      <section class="roadmap" data-aos="fade-up">
         <h2><i class="fas fa-map"></i> Project Roadmap</h2>
         <p class="roadmap-intro">
           Here's what we're working on and planning for the future of ExplainShot:

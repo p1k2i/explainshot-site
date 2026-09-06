@@ -6,7 +6,7 @@
         <p>Get the latest version of ExplainShot for your platform</p>
       </header>
 
-      <section class="download-hero" data-aos="fade-up" data-aos-delay="200">
+      <section class="download-hero" data-aos="fade-up">
         <div class="current-version">
           <div class="version-badge">
             <span class="version-label">Latest Release</span>
@@ -16,7 +16,7 @@
         </div>
       </section>
 
-      <section class="download-options" data-aos="fade-up" data-aos-delay="400">
+      <section class="download-options" data-aos="fade-up">
         <h2><i class="fas fa-computer"></i> Download for Your Platform</h2>
 
         <div class="platforms-grid">
@@ -64,7 +64,7 @@
         </div>
       </section>
 
-      <section class="alternative-downloads" data-aos="fade-up" data-aos-delay="600">
+      <section class="alternative-downloads" data-aos="fade-up">
         <h2><i class="fas fa-arrow-down"></i> Alternative Downloads</h2>
 
         <div class="alt-downloads-grid">
@@ -116,7 +116,7 @@
         </div>
       </section>
 
-      <section class="system-requirements" data-aos="fade-up" data-aos-delay="800">
+      <section class="system-requirements" data-aos="fade-up">
         <h2><i class="fas fa-cog"></i> System Requirements</h2>
 
         <div class="requirements-grid">
@@ -151,7 +151,7 @@
         </div>
       </section>
 
-      <section class="installation-guide" data-aos="fade-up" data-aos-delay="1000">
+      <section class="installation-guide" data-aos="fade-up">
         <h2><i class="fas fa-tools"></i> Installation Guide</h2>
 
         <div class="guide-tabs">
@@ -199,7 +199,7 @@
         </div>
       </section>
 
-      <section class="release-notes" data-aos="fade-up" data-aos-delay="1200">
+      <section class="release-notes" data-aos="fade-up">
         <h2><i class="fas fa-file-lines"></i> What's New</h2>
 
         <div class="changelog">
@@ -242,7 +242,7 @@
         </div>
       </section>
 
-      <section class="support-section" data-aos="fade-up" data-aos-delay="1400">
+      <section class="support-section" data-aos="fade-up">
         <h2><i class="fas fa-handshake"></i> Need Help?</h2>
 
         <div class="support-grid">

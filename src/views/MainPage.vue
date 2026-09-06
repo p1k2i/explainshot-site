@@ -25,11 +25,11 @@
       </div>
     </section>
 
-    <section id="features" class="features" data-aos="fade-up" data-aos-delay="200">
+    <section id="features" class="features" data-aos="fade-up">
       <div class="container">
         <h2>Key Features</h2>
         <div class="features-grid">
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-card" data-aos="fade-up">
             <div class="feature-icon"><i class="fas fa-camera"></i></div>
             <h3>Capture &amp; Annotate</h3>
             <p>
@@ -37,7 +37,7 @@
               and blur before you send it off.
             </p>
           </div>
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="feature-card" data-aos="fade-up">
             <div class="feature-icon"><i class="fas fa-comments"></i></div>
             <h3>AI Conversations</h3>
             <p>
@@ -45,7 +45,7 @@
               is saved per screenshot in the built-in gallery.
             </p>
           </div>
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="feature-card" data-aos="fade-up">
             <div class="feature-icon"><i class="fas fa-robot"></i></div>
             <h3>Bring Your Own AI</h3>
             <p>
@@ -53,7 +53,7 @@
               OpenAI-compatible protocol. Run a local model to keep everything private.
             </p>
           </div>
-          <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+          <div class="feature-card" data-aos="fade-up">
             <div class="feature-icon"><i class="fas fa-palette"></i></div>
             <h3>Customizable</h3>
             <p>
@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <section class="screenshot-section" data-aos="fade-up" data-aos-delay="700">
+    <section class="screenshot-section" data-aos="fade-up">
       <div class="container">
         <h2>See It In Action</h2>
         <div class="screenshot-placeholder">
@@ -76,7 +76,7 @@
       </div>
     </section>
 
-    <section class="architecture" data-aos="fade-up" data-aos-delay="800">
+    <section class="architecture" data-aos="fade-up">
       <div class="container">
         <h2>Modern Architecture</h2>
         <p class="architecture-description">
@@ -93,7 +93,7 @@
       </div>
     </section>
 
-    <section class="download-section" data-aos="fade-up" data-aos-delay="900">
+    <section class="download-section" data-aos="fade-up">
       <div class="container">
         <h2>Get Started</h2>
         <div class="download-buttons">
