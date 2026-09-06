@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/explainshot-site/',
+  base: process.env.VERCEL ? '/' : '/explainshot-site/',
   plugins: [
     vue(),
     vueDevTools(),
