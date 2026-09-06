@@ -92,7 +92,7 @@ python main.py
             <h3>Customizable Hotkeys</h3>
           <div class="hotkey-grid">
             <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+              <kbd>Print Screen</kbd>
               <span>Capture a region</span>
             </div>
             <div class="hotkey-item">
@@ -100,7 +100,7 @@ python main.py
               <span>Open / toggle the gallery</span>
             </div>
             <div class="hotkey-item">
-              <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+              <kbd>Ctrl</kbd> + <kbd>,</kbd>
               <span>Open settings</span>
             </div>
           </div>
@@ -131,9 +131,8 @@ python main.py
             <div class="step-content">
               <h3>Capture &amp; Annotate</h3>
               <p>
-                Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> and drag to select a region
-                across your displays. Mark it up with arrows, text, rectangles, or blur, then choose
-                "Save &amp; open".
+                Press <kbd>Print Screen</kbd> and drag to select a region across your displays. Mark
+                it up with arrows, text, rectangles, or blur, then choose "Save &amp; open".
               </p>
             </div>
           </div>
