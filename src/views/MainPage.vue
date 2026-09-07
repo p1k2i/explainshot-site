@@ -69,9 +69,11 @@
       <div class="container">
         <h2>See It In Action</h2>
         <div class="screenshot-placeholder">
-          <div class="screenshot-mockup">
-            <p>Screenshot/Demo will be placed here</p>
-          </div>
+          <img
+            class="screenshot-image"
+            src="/20260907_232156_e5718b35.png"
+            alt="ExplainShot desktop app showing a screenshot gallery, AI chat, and prompt presets"
+          />
         </div>
       </div>
     </section>
@@ -240,18 +242,15 @@ import { RouterLink } from 'vue-router'
   justify-content: center;
 }
 
-.screenshot-mockup {
+.screenshot-image {
   width: 100%;
   max-width: 800px;
-  height: 400px;
+  height: auto;
+  display: block;
   background: var(--color-background);
-  border: 2px dashed var(--color-border);
+  border: 1px solid var(--color-border);
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-text-muted);
-  font-size: 1.125rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 /* Architecture Section */
