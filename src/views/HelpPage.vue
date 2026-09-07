@@ -92,6 +92,10 @@ python main.py
             <h3>Customizable Hotkeys</h3>
           <div class="hotkey-grid">
             <div class="hotkey-item">
+              <kbd>Ctrl</kbd> + <kbd>Print Screen</kbd>
+              <span>Capture full screen</span>
+            </div>
+            <div class="hotkey-item">
               <kbd>Print Screen</kbd>
               <span>Capture a region</span>
             </div>
