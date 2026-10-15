@@ -10,7 +10,7 @@
         <div class="current-version">
           <div class="version-badge">
             <span class="version-label">Latest Release</span>
-            <span class="version-number">v0.2.1</span>
+            <span class="version-number">v0.2.2</span>
           </div>
           <p class="version-date">Released on September 7, 2026</p>
         </div>
@@ -25,7 +25,7 @@
             <h3>Windows</h3>
             <p class="platform-info">Windows 10/11 (64-bit)</p>
             <div class="download-buttons">
-              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.2.1/ExplainShot-v0.2.1.zip" class="btn btn-primary" @click="trackDownload('windows-portable')" download>
+              <a href="https://github.com/p1k2i/explain-shot/releases/download/v0.2.2/ExplainShot-v0.2.2.zip" class="btn btn-primary" @click="trackDownload('windows-portable')" download>
                 <i class="fas fa-download"></i>
                 Portable Version
                 <small>(.zip - 49.1 MB)</small>
@@ -203,6 +203,12 @@
         <h2><i class="fas fa-file-lines"></i> What's New</h2>
 
         <div class="changelog">
+          <div class="changelog-section">
+            <h3>v0.2.2 (The button to copy selected area)</h3>
+            <ul>
+              <li>Added the button to copy selected area into clipboard</li>
+            </ul>
+          </div>
           <div class="changelog-section">
             <h3>v0.2.1 (Title Bar &amp; Full Screen Capture)</h3>
             <ul>
